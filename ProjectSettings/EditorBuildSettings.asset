@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity
-    guid: 0c611a2881614c644b9df39be7bf8fe6
+    path: Assets/Scenes/XQuizIte/XQuizIte.unity
+    guid: ab1b74e1e5f096a40bc7ef37cdf3cb9e
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 60e58e9690562a548b86f1c9ff207ed2, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2a59a7df5d5fade4eba3cfeca7d7c923, type: 2}
