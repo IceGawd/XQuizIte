@@ -3570,7 +3570,6 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FocusPlanePanel_get_AjustFocusPlaneNormal_mF58FB47FC665A3456BA05120E3DCD4C440FC232B (FocusPlanePanel_t507B7825AF01F4B10336E9978A808DAB8EBECCB2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:12>
 		bool L_0 = __this->___U3CAjustFocusPlaneNormalU3Ek__BackingField;
 		return L_0;
 	}
@@ -3579,7 +3578,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FocusPlanePanel_get_AjustFocusPlaneNorma
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_set_AjustFocusPlaneNormal_m279AFFF3F4E3A19EBF64DA47CC29A90864C6DE1B (FocusPlanePanel_t507B7825AF01F4B10336E9978A808DAB8EBECCB2* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:12>
 		bool L_0 = ___0_value;
 		__this->___U3CAjustFocusPlaneNormalU3Ek__BackingField = L_0;
 		return;
@@ -3589,7 +3587,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_set_AjustFocusPlaneNorma
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_Start_mB2AD2A385E9E8766F4AE3BA607C78F46FB9D1F56 (FocusPlanePanel_t507B7825AF01F4B10336E9978A808DAB8EBECCB2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:26>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = XREALUtility_get_MainCamera_mA1A6B932FC5F81C5AFBCF333C4F93EF2330F0D76(NULL);
 		NullCheck(L_0);
@@ -3597,7 +3594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_Start_mB2AD2A385E9E8766F
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		__this->___m_Camera = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Camera), (void*)L_1);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:27>
 		return;
 	}
 }
@@ -3619,7 +3615,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_Update_m14C6AB780F049622
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B4_0;
 	memset((&G_B4_0), 0, sizeof(G_B4_0));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_Camera;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -3641,7 +3636,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_Update_m14C6AB780F049622
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___m_Camera;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_8 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___m_HitResult);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
@@ -3650,7 +3644,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_Update_m14C6AB780F049622
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_7, L_9, NULL);
 		V_0 = L_10;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:34>
 		bool L_11;
 		L_11 = FocusPlanePanel_get_AjustFocusPlaneNormal_mF58FB47FC665A3456BA05120E3DCD4C440FC232B_inline(__this, NULL);
 		if (L_11)
@@ -3680,7 +3673,6 @@ IL_0056:
 IL_006c:
 	{
 		V_1 = G_B4_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:36>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___m_FocusDistance;
 		float L_18;
 		L_18 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
@@ -3689,19 +3681,16 @@ IL_006c:
 		L_19 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&V_2), _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748, NULL);
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, L_19);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:37>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___m_FocusPoint;
 		String_t* L_21;
 		L_21 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
 		NullCheck(L_20);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_20, L_21);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:38>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___m_FocusNormal;
 		String_t* L_23;
 		L_23 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_1), NULL);
 		NullCheck(L_22);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_22, L_23);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:40>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_1;
 		FocusPlanePanel_SetFocusPlane_mAA6343D191729EE717190E6E3351AB9412A27BA7(__this, L_24, L_25, NULL);
@@ -3709,7 +3698,6 @@ IL_006c:
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:42>
 		return;
 	}
 }
@@ -3725,7 +3713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_SetFocusPlane_mAA6343D19
 	XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* G_B2_0 = NULL;
 	XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:46>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_0;
 		L_0 = XREALUtility_GetLoadedSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m62849A1562B193BC92EDC7289B5BAF411E4D36A9(XREALUtility_GetLoadedSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m62849A1562B193BC92EDC7289B5BAF411E4D36A9_RuntimeMethod_var);
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_1 = L_0;
@@ -3748,7 +3735,6 @@ IL_000a:
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(G_B2_0);
 		XRDisplaySubsystem_SetFocusPlane_mBBEC4ACF1CE86DC96AE857DB1FA084D920C3AE79(G_B2_0, L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:47>
 		return;
 	}
 }
@@ -3762,7 +3748,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_OnDrawGizmos_m81263FE611
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:51>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_0 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___m_HitResult);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1;
 		L_1 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D(L_0, NULL);
@@ -3775,12 +3760,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_OnDrawGizmos_m81263FE611
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:53>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_3 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___m_HitResult);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39(L_3, NULL);
 		Gizmos_DrawSphere_mC7B2862BBDB3141A63B83F0F1E56E30101D4F472(L_4, (0.0500000007f), NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:54>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___m_Camera;
 		NullCheck(L_5);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
@@ -3793,7 +3776,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusPlanePanel_OnDrawGizmos_m81263FE611
 
 IL_0043:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:56>
 		return;
 	}
 }
@@ -3832,7 +3814,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Start_m7B751166887630C3CC8998FF3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:27>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_TextCurrentMode;
 		int32_t L_1;
 		L_1 = XREALPlugin_GetTrackingType_mBED998A75848E9E22A3683380C07F6F274EF626E(NULL);
@@ -3842,11 +3823,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Start_m7B751166887630C3CC8998FF3
 		L_4 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralF83C9DE75915393BC4DAE69C561E63CAE4B77F2C, L_3, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_4);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:29>
 		TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E* L_5 = (TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E*)il2cpp_codegen_object_new(TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E_il2cpp_TypeInfo_var);
 		TrackingTypeChangedCallback__ctor_m74037937C7974185F639CCE69BF2A367C7ED2508(L_5, __this, (intptr_t)((void*)HelloMR_OnTrackingTypeChanged_m943006BE5B7B50564443E2D53B4025B5AB16F756_RuntimeMethod_var), NULL);
 		XREALPlugin_add_OnTrackingTypeChanged_mF84409294A4B573F03A70019D642504497ED6784(L_5, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:30>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_6 = __this->___m_Toggle0Dof;
 		NullCheck(L_6);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_7 = L_6->___onValueChanged;
@@ -3854,7 +3833,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Start_m7B751166887630C3CC8998FF3
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_8, __this, (intptr_t)((void*)HelloMR_On0DofToggleChanged_mD5AB13CE68D29FEBC454AE7B8E19654BB32E3FC3_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_7, L_8, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:31>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_9 = __this->___m_Toggle0DofStable;
 		NullCheck(L_9);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_10 = L_9->___onValueChanged;
@@ -3862,7 +3840,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Start_m7B751166887630C3CC8998FF3
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_11, __this, (intptr_t)((void*)HelloMR_On0DofStableToggleChanged_mE53175B14C78574CDEF54EFC0E3542351E723634_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_10, L_11, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:32>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_12 = __this->___m_Toggle3Dof;
 		NullCheck(L_12);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_13 = L_12->___onValueChanged;
@@ -3870,7 +3847,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Start_m7B751166887630C3CC8998FF3
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_14, __this, (intptr_t)((void*)HelloMR_On3DofToggleChanged_m5487E8FD5A514168DB265635EDFD50DF1F6AB4A0_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_13, L_14, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:33>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_15 = __this->___m_Toggle6Dof;
 		NullCheck(L_15);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_16 = L_15->___onValueChanged;
@@ -3878,15 +3854,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Start_m7B751166887630C3CC8998FF3
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_17, __this, (intptr_t)((void*)HelloMR_On6DofToggleChanged_m92901ED956539CD7DBC6136BA8451799641EE2CD_RuntimeMethod_var), NULL);
 		NullCheck(L_16);
 		UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD(L_16, L_17, UnityEvent_1_AddListener_mE9367D4B3AA4C323EE7C35FA18CF2D8A142F43FD_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:35>
 		HelloMR_InitDofUI_m4D5F58FFB4EC302F4678D54168E13238229C53E9(__this, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:36>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_18 = __this->___m_ButtonHandInput;
 		bool L_19;
 		L_19 = XREALPlugin_IsHMDFeatureSupported_mC0D47BE7D775AEB46682BF89CC5B7B6C139EFFA6(5, NULL);
 		NullCheck(L_18);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_18, L_19, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:37>
 		return;
 	}
 }
@@ -3907,11 +3880,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnDestroy_m8DBED0E589E492392B89A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:41>
 		TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E* L_0 = (TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E*)il2cpp_codegen_object_new(TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E_il2cpp_TypeInfo_var);
 		TrackingTypeChangedCallback__ctor_m74037937C7974185F639CCE69BF2A367C7ED2508(L_0, __this, (intptr_t)((void*)HelloMR_OnTrackingTypeChanged_m943006BE5B7B50564443E2D53B4025B5AB16F756_RuntimeMethod_var), NULL);
 		XREALPlugin_remove_OnTrackingTypeChanged_mFC101751E74EF6C486B77D2C2B582446F9930EDA(L_0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:42>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_1 = __this->___m_Toggle0Dof;
 		NullCheck(L_1);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_2 = L_1->___onValueChanged;
@@ -3919,7 +3890,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnDestroy_m8DBED0E589E492392B89A
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_3, __this, (intptr_t)((void*)HelloMR_On0DofToggleChanged_mD5AB13CE68D29FEBC454AE7B8E19654BB32E3FC3_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130(L_2, L_3, UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:43>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_4 = __this->___m_Toggle0DofStable;
 		NullCheck(L_4);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_5 = L_4->___onValueChanged;
@@ -3927,7 +3897,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnDestroy_m8DBED0E589E492392B89A
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_6, __this, (intptr_t)((void*)HelloMR_On0DofStableToggleChanged_mE53175B14C78574CDEF54EFC0E3542351E723634_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130(L_5, L_6, UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:44>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_7 = __this->___m_Toggle3Dof;
 		NullCheck(L_7);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_8 = L_7->___onValueChanged;
@@ -3935,7 +3904,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnDestroy_m8DBED0E589E492392B89A
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_9, __this, (intptr_t)((void*)HelloMR_On3DofToggleChanged_m5487E8FD5A514168DB265635EDFD50DF1F6AB4A0_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130(L_8, L_9, UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:45>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_10 = __this->___m_Toggle6Dof;
 		NullCheck(L_10);
 		ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* L_11 = L_10->___onValueChanged;
@@ -3943,7 +3911,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnDestroy_m8DBED0E589E492392B89A
 		UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD(L_12, __this, (intptr_t)((void*)HelloMR_On6DofToggleChanged_m92901ED956539CD7DBC6136BA8451799641EE2CD_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
 		UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130(L_11, L_12, UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:46>
 		return;
 	}
 }
@@ -3952,7 +3919,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_InitDofUI_m4D5F58FFB4EC302F4678D
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:50>
 		int32_t L_0;
 		L_0 = XREALPlugin_GetTrackingType_mBED998A75848E9E22A3683380C07F6F274EF626E(NULL);
 		V_0 = L_0;
@@ -3983,41 +3949,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_InitDofUI_m4D5F58FFB4EC302F4678D
 
 IL_001d:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:53>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_2 = __this->___m_Toggle0Dof;
 		NullCheck(L_2);
 		Toggle_SetIsOnWithoutNotify_mF5B19F1767B9EFF02335E41D3D2DC678642170C2(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:54>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:56>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_3 = __this->___m_Toggle0DofStable;
 		NullCheck(L_3);
 		Toggle_SetIsOnWithoutNotify_mF5B19F1767B9EFF02335E41D3D2DC678642170C2(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:57>
 		return;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:59>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_4 = __this->___m_Toggle3Dof;
 		NullCheck(L_4);
 		Toggle_SetIsOnWithoutNotify_mF5B19F1767B9EFF02335E41D3D2DC678642170C2(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:60>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:62>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_5 = __this->___m_Toggle6Dof;
 		NullCheck(L_5);
 		Toggle_SetIsOnWithoutNotify_mF5B19F1767B9EFF02335E41D3D2DC678642170C2(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:65>
 		return;
 	}
 }
@@ -4032,7 +3990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On6DofToggleChanged_m92901ED9565
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:69>
 		bool L_0 = ___0_on;
 		if (!L_0)
 		{
@@ -4040,7 +3997,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On6DofToggleChanged_m92901ED9565
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:71>
 		TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E* L_1 = (TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E*)il2cpp_codegen_object_new(TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E_il2cpp_TypeInfo_var);
 		TrackingTypeChangedCallback__ctor_m74037937C7974185F639CCE69BF2A367C7ED2508(L_1, __this, (intptr_t)((void*)HelloMR_OnTrackingTypeChanged_m943006BE5B7B50564443E2D53B4025B5AB16F756_RuntimeMethod_var), NULL);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_2;
@@ -4049,7 +4005,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On6DofToggleChanged_m92901ED9565
 
 IL_0016:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:73>
 		return;
 	}
 }
@@ -4064,7 +4019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On3DofToggleChanged_m5487E8FD5A5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:77>
 		bool L_0 = ___0_on;
 		if (!L_0)
 		{
@@ -4072,7 +4026,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On3DofToggleChanged_m5487E8FD5A5
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:79>
 		TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E* L_1 = (TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E*)il2cpp_codegen_object_new(TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E_il2cpp_TypeInfo_var);
 		TrackingTypeChangedCallback__ctor_m74037937C7974185F639CCE69BF2A367C7ED2508(L_1, __this, (intptr_t)((void*)HelloMR_OnTrackingTypeChanged_m943006BE5B7B50564443E2D53B4025B5AB16F756_RuntimeMethod_var), NULL);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_2;
@@ -4081,7 +4034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On3DofToggleChanged_m5487E8FD5A5
 
 IL_0016:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:81>
 		return;
 	}
 }
@@ -4096,7 +4048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On0DofStableToggleChanged_mE5317
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:85>
 		bool L_0 = ___0_on;
 		if (!L_0)
 		{
@@ -4104,7 +4055,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On0DofStableToggleChanged_mE5317
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:87>
 		TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E* L_1 = (TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E*)il2cpp_codegen_object_new(TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E_il2cpp_TypeInfo_var);
 		TrackingTypeChangedCallback__ctor_m74037937C7974185F639CCE69BF2A367C7ED2508(L_1, __this, (intptr_t)((void*)HelloMR_OnTrackingTypeChanged_m943006BE5B7B50564443E2D53B4025B5AB16F756_RuntimeMethod_var), NULL);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_2;
@@ -4113,7 +4063,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On0DofStableToggleChanged_mE5317
 
 IL_0016:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:89>
 		return;
 	}
 }
@@ -4128,7 +4077,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On0DofToggleChanged_mD5AB13CE68D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:93>
 		bool L_0 = ___0_on;
 		if (!L_0)
 		{
@@ -4136,7 +4084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On0DofToggleChanged_mD5AB13CE68D
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:95>
 		TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E* L_1 = (TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E*)il2cpp_codegen_object_new(TrackingTypeChangedCallback_t9AB11EB9CC989F6D91B2868E525F273F8C3F7C3E_il2cpp_TypeInfo_var);
 		TrackingTypeChangedCallback__ctor_m74037937C7974185F639CCE69BF2A367C7ED2508(L_1, __this, (intptr_t)((void*)HelloMR_OnTrackingTypeChanged_m943006BE5B7B50564443E2D53B4025B5AB16F756_RuntimeMethod_var), NULL);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_2;
@@ -4145,7 +4092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_On0DofToggleChanged_mD5AB13CE68D
 
 IL_0016:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:97>
 		return;
 	}
 }
@@ -4153,10 +4099,8 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_ChangeToControllerInput_mAB0F686BA5966EB315D760CFF012DC1B1A454B63 (HelloMR_t49BD8479F773DA4A8A5BC8CE49DD2991106B2707* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:104>
 		bool L_0;
 		L_0 = XREALPlugin_SetInputSource_m647CB133BCE305E66B4BED34B238DCB405E60AEC(1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:105>
 		return;
 	}
 }
@@ -4164,10 +4108,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_ChangeToControllerInput_mAB0F686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_ChangeToHandInput_m455D24E0DCCBC5DF169E71AD5CD10CE6A3DD6410 (HelloMR_t49BD8479F773DA4A8A5BC8CE49DD2991106B2707* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:112>
 		bool L_0;
 		L_0 = XREALPlugin_SetInputSource_m647CB133BCE305E66B4BED34B238DCB405E60AEC(2, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:113>
 		return;
 	}
 }
@@ -4184,7 +4126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Vibrate_m9ED174D145C2044366AB5D2
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:120>
 		XREALVirtualController_tB9DF68A13F410A7B3E9B5C29E91CD0FEA68AF730* L_0;
 		L_0 = SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_inline(SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4196,7 +4137,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Vibrate_m9ED174D145C2044366AB5D2
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:121>
 		XREALVirtualController_tB9DF68A13F410A7B3E9B5C29E91CD0FEA68AF730* L_2;
 		L_2 = SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_inline(SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_RuntimeMethod_var);
 		NullCheck(L_2);
@@ -4209,7 +4149,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_Vibrate_m9ED174D145C2044366AB5D2
 
 IL_002b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:122>
 		return;
 	}
 }
@@ -4225,11 +4164,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnTrackingTypeChanged_m943006BE5
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:126>
 		int32_t L_0;
 		L_0 = XREALPlugin_GetTrackingType_mBED998A75848E9E22A3683380C07F6F274EF626E(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:127>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___m_TextCurrentMode;
 		int32_t L_2 = V_0;
 		int32_t L_3 = L_2;
@@ -4238,7 +4175,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelloMR_OnTrackingTypeChanged_m943006BE5
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralF83C9DE75915393BC4DAE69C561E63CAE4B77F2C, L_4, NULL);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, L_5);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.cs:128>
 		return;
 	}
 }
@@ -4294,7 +4230,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XREALInput_get_CurrentInputSourceType
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:59>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4305,7 +4240,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XREALInput_get_CurrentInputSourceType
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:60>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2;
 		L_2 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_2);
@@ -4315,7 +4249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XREALInput_get_CurrentInputSourceType
 
 IL_0018:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:61>
 		int32_t L_4;
 		L_4 = XREALPlugin_GetInputSource_m40A74B79FC17BDCFE3FA3A75016FF28354A3ED4D(NULL);
 		return L_4;
@@ -4325,7 +4258,6 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* XREALInput_get_MainCamera_m3221EC00086753CCC3454A3816308D1B290F92A1 (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:79>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = XREALUtility_get_MainCamera_mA1A6B932FC5F81C5AFBCF333C4F93EF2330F0D76(NULL);
 		return L_0;
@@ -4350,13 +4282,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_Awake_mBF9701F0A70945CA36F499
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:107>
 		SingletonMonoBehaviour_1_Awake_mD0089169EAAFFBEE3CC89DE50A86146134F13DF9(__this, SingletonMonoBehaviour_1_Awake_mD0089169EAAFFBEE3CC89DE50A86146134F13DF9_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:108>
 		int32_t L_0;
 		L_0 = XREALPlugin_GetInputSource_m40A74B79FC17BDCFE3FA3A75016FF28354A3ED4D(NULL);
 		__this->___mInputSourceType = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:112>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_1 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
 		L_2 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_1, NULL);
@@ -4366,7 +4295,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_Awake_mBF9701F0A70945CA36F499
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:114>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_3 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
 		L_4 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_3, NULL);
@@ -4374,7 +4302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_Awake_mBF9701F0A70945CA36F499
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_5, __this, (intptr_t)((void*)XREALInput_TriggerActionPerformed_m1DE8CB2F54B2B9484B57834B4D9ED992F9FCA10F_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_4, L_5, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:115>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_6 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_7;
 		L_7 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_6, NULL);
@@ -4386,7 +4313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_Awake_mBF9701F0A70945CA36F499
 
 IL_0056:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:117>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_9 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_HomeActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_10;
 		L_10 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_9, NULL);
@@ -4396,7 +4322,6 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:119>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_11 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_HomeActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12;
 		L_12 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_11, NULL);
@@ -4404,7 +4329,6 @@ IL_0056:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_13, __this, (intptr_t)((void*)XREALInput_HomeActionPerformed_mC4F40D65547731B1EB5E79BF23BCCB891E174751_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_12, L_13, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:120>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_14 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_HomeActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_15;
 		L_15 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_14, NULL);
@@ -4416,7 +4340,6 @@ IL_0056:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:122>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_17 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_AppActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_18;
 		L_18 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_17, NULL);
@@ -4426,7 +4349,6 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:124>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_19 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_AppActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_20;
 		L_20 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_19, NULL);
@@ -4434,7 +4356,6 @@ IL_009b:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_21, __this, (intptr_t)((void*)XREALInput_AppActionPerformed_mAC465BC77E29287EFBD6C7AEE24060E18FED7266_RuntimeMethod_var), NULL);
 		NullCheck(L_20);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_20, L_21, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:125>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_22 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_AppActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_23;
 		L_23 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_22, NULL);
@@ -4446,7 +4367,6 @@ IL_009b:
 
 IL_00e0:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:127>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_25 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TouchActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_26;
 		L_26 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_25, NULL);
@@ -4456,7 +4376,6 @@ IL_00e0:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:129>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_27 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TouchActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_28;
 		L_28 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_27, NULL);
@@ -4464,7 +4383,6 @@ IL_00e0:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_29, __this, (intptr_t)((void*)XREALInput_TouchActionPerformed_mFBFF6E61F5E5F6ADEC36955202B333E3EF3AC3AA_RuntimeMethod_var), NULL);
 		NullCheck(L_28);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_28, L_29, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:130>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_30 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TouchActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_31;
 		L_31 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_30, NULL);
@@ -4476,7 +4394,6 @@ IL_00e0:
 
 IL_0125:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:132>
 		return;
 	}
 }
@@ -4484,7 +4401,6 @@ IL_0125:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnEnable_mDF1E1648706AF55DBA7577071E95EB871B71C668 (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:136>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___mAfterUpdateCoroutine;
 		if (!L_0)
 		{
@@ -4492,21 +4408,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnEnable_mDF1E1648706AF55DBA7
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:137>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___mAfterUpdateCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:138>
 		RuntimeObject* L_2;
 		L_2 = XREALInput_SyncAfterUpdate_m80D2B3CDF862D7377A77378B88965C1681D63AAE(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
 		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
 		__this->___mAfterUpdateCoroutine = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mAfterUpdateCoroutine), (void*)L_3);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:139>
 		return;
 	}
 }
@@ -4514,7 +4427,6 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_Update_m03038DAC33D95D4D75347693F865133A0681715C (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:143>
 		bool L_0 = __this->___mControllerTouchpadPressed;
 		if (L_0)
 		{
@@ -4531,7 +4443,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_Update_m03038DAC33D95D4D75347
 
 IL_0010:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:145>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = __this->___mControllerTouchPos;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = __this->___mControllerLastTouchPos;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
@@ -4541,9 +4452,7 @@ IL_0010:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:147>
 		XREALInput_CheckButtonEvent_m9659824833E279A07B3AED3A725D5398692E6E8A(__this, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:148>
 		return;
 	}
 }
@@ -4551,7 +4460,6 @@ IL_0027:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnDisable_m3D08A40A8814BADF3B7791E60849CFA3CA4ECD2D (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:152>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___mAfterUpdateCoroutine;
 		if (!L_0)
 		{
@@ -4559,17 +4467,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnDisable_m3D08A40A8814BADF3B
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:154>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___mAfterUpdateCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:155>
 		__this->___mAfterUpdateCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mAfterUpdateCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:157>
 		return;
 	}
 }
@@ -4592,9 +4497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnDestroy_mCCDE72BC232B77439B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:161>
 		SingletonMonoBehaviour_1_OnDestroy_mE045DF91143EC483A06861A3AABFED1E336F899E(__this, SingletonMonoBehaviour_1_OnDestroy_mE045DF91143EC483A06861A3AABFED1E336F899E_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:162>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_0 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
 		L_1 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_0, NULL);
@@ -4604,7 +4507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnDestroy_mCCDE72BC232B77439B
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:164>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_2 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
 		L_3 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_2, NULL);
@@ -4612,7 +4514,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnDestroy_mCCDE72BC232B77439B
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_4, __this, (intptr_t)((void*)XREALInput_TriggerActionPerformed_m1DE8CB2F54B2B9484B57834B4D9ED992F9FCA10F_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_3, L_4, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:165>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_5 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
 		L_6 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_5, NULL);
@@ -4624,7 +4525,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_OnDestroy_mCCDE72BC232B77439B
 
 IL_004b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:167>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_8 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_HomeActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_9;
 		L_9 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_8, NULL);
@@ -4634,7 +4534,6 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:169>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_10 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_HomeActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
 		L_11 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_10, NULL);
@@ -4642,7 +4541,6 @@ IL_004b:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_12, __this, (intptr_t)((void*)XREALInput_HomeActionPerformed_mC4F40D65547731B1EB5E79BF23BCCB891E174751_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
 		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_11, L_12, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:170>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_13 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_HomeActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_14;
 		L_14 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_13, NULL);
@@ -4654,7 +4552,6 @@ IL_004b:
 
 IL_0090:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:172>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_16 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_AppActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_17;
 		L_17 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_16, NULL);
@@ -4664,7 +4561,6 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:174>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_18 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_AppActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_19;
 		L_19 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_18, NULL);
@@ -4672,7 +4568,6 @@ IL_0090:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_20, __this, (intptr_t)((void*)XREALInput_AppActionPerformed_mAC465BC77E29287EFBD6C7AEE24060E18FED7266_RuntimeMethod_var), NULL);
 		NullCheck(L_19);
 		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_19, L_20, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:175>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_21 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_AppActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_22;
 		L_22 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_21, NULL);
@@ -4684,7 +4579,6 @@ IL_0090:
 
 IL_00d5:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:177>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_24 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TouchActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_25;
 		L_25 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_24, NULL);
@@ -4694,7 +4588,6 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:179>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_26 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TouchActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_27;
 		L_27 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_26, NULL);
@@ -4702,7 +4595,6 @@ IL_00d5:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_28, __this, (intptr_t)((void*)XREALInput_TouchActionPerformed_mFBFF6E61F5E5F6ADEC36955202B333E3EF3AC3AA_RuntimeMethod_var), NULL);
 		NullCheck(L_27);
 		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_27, L_28, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:180>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_29 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TouchActionProperty);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_30;
 		L_30 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_29, NULL);
@@ -4714,7 +4606,6 @@ IL_00d5:
 
 IL_011a:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:182>
 		return;
 	}
 }
@@ -4757,7 +4648,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_SetInputSource_mD295F75856DA6
 	Action_1_t2430328170285B6C4B3317011CF8B29630A68EB8* G_B8_0 = NULL;
 	Action_1_t2430328170285B6C4B3317011CF8B29630A68EB8* G_B7_0 = NULL;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:205>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4768,7 +4658,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_SetInputSource_mD295F75856DA6
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:207>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2;
 		L_2 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_2);
@@ -4782,7 +4671,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_SetInputSource_mD295F75856DA6
 		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE7E00A6EF014B31E5F97BFFBF18780EAEDCCE7F3, L_5, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:208>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_10;
 		L_10 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_10);
@@ -4794,13 +4682,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_SetInputSource_mD295F75856DA6
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:209>
 		return (bool)0;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:210>
 		Action_1_t2430328170285B6C4B3317011CF8B29630A68EB8* L_13 = ((XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_StaticFields*)il2cpp_codegen_static_fields_for(XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_il2cpp_TypeInfo_var))->___OnInputSourceStop;
 		Action_1_t2430328170285B6C4B3317011CF8B29630A68EB8* L_14 = L_13;
 		if (L_14)
@@ -4826,17 +4712,14 @@ IL_004b:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:211>
 		int32_t L_17 = ___0_inputSourceType;
 		bool L_18;
 		L_18 = XREALPlugin_SetInputSource_m647CB133BCE305E66B4BED34B238DCB405E60AEC(L_17, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:212>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_19;
 		L_19 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		int32_t L_20 = ___0_inputSourceType;
 		NullCheck(L_19);
 		L_19->___mInputSourceType = L_20;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:213>
 		Action_1_t2430328170285B6C4B3317011CF8B29630A68EB8* L_21 = ((XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_StaticFields*)il2cpp_codegen_static_fields_for(XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_il2cpp_TypeInfo_var))->___OnInputSourceStarted;
 		Action_1_t2430328170285B6C4B3317011CF8B29630A68EB8* L_22 = L_21;
 		if (L_22)
@@ -4859,13 +4742,11 @@ IL_0077:
 
 IL_007d:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:214>
 		return (bool)1;
 	}
 
 IL_007f:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:216>
 		return (bool)0;
 	}
 }
@@ -4880,7 +4761,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouching_mF1AF14FBFFF8A7B2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:225>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4891,7 +4771,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouching_mF1AF14FBFFF8A7B2A
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:226>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___mControllerButtonValue;
@@ -4900,7 +4779,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouching_mF1AF14FBFFF8A7B2A
 
 IL_001d:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:227>
 		return (bool)0;
 	}
 }
@@ -4915,7 +4793,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrollStart_mB0DBE0197
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:236>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4926,7 +4803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrollStart_mB0DBE0197
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:237>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		bool L_3 = L_2->___mControllerTouchpadPressed;
@@ -4949,7 +4825,6 @@ IL_0027:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:238>
 		return (bool)0;
 	}
 }
@@ -4964,7 +4839,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrolling_m0705EFFEF48
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:247>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4975,7 +4849,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrolling_m0705EFFEF48
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:248>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		bool L_3 = L_2->___mControllerTouchpadPressed;
@@ -4984,7 +4857,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrolling_m0705EFFEF48
 
 IL_0018:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:249>
 		return (bool)0;
 	}
 }
@@ -4999,7 +4871,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrollStop_m3E281782DD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:258>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5010,7 +4881,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_IsTouchScrollStop_m3E281782DD
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:259>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		bool L_3 = L_2->___mControllerTouchpadLastPressed;
@@ -5033,7 +4903,6 @@ IL_0027:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:260>
 		return (bool)0;
 	}
 }
@@ -5048,7 +4917,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:269>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5059,7 +4927,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:271>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		bool L_3 = L_2->___mControllerTouchpadPressed;
@@ -5080,7 +4947,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 
 IL_0025:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:272>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_6 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_6);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = L_6->___mControllerTouchPos;
@@ -5089,7 +4955,6 @@ IL_0025:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:273>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_8 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_8);
 		bool L_9 = L_8->___mControllerTouchpadLastPressed;
@@ -5099,7 +4964,6 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:274>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_10 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_10);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = L_10->___mControllerLastTouchPos;
@@ -5108,7 +4972,6 @@ IL_0030:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:276>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 		L_12 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		return L_12;
@@ -5125,7 +4988,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:285>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5136,7 +4998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:286>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = L_2->___mControllerTouchDelta;
@@ -5145,7 +5006,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 
 IL_0018:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:287>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		return L_4;
@@ -5165,7 +5025,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:296>
 		int32_t L_0;
 		L_0 = XREALInput_get_CurrentInputSourceType_m46D76D52BE8727EBD7B7B1F622DBDF2E61E0D628(NULL);
 		if ((((int32_t)L_0) == ((int32_t)1)))
@@ -5184,27 +5043,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0010:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:298>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:299>
 		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_3;
 		L_3 = InputDevices_GetDeviceAtXRNode_m3D322E7D1FFDA9C4D53E6B944E636C39B7A9592B(5, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:300>
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 L_4 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___devicePosition;
 		bool L_5;
 		L_5 = InputDevice_TryGetFeatureValue_m472B5ECE996FB7440CACCF1E85722DA4963E3167((&V_1), L_4, (&V_0), NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:301>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 		return L_6;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:304>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		return L_7;
@@ -5224,7 +5078,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:313>
 		int32_t L_0;
 		L_0 = XREALInput_get_CurrentInputSourceType_m46D76D52BE8727EBD7B7B1F622DBDF2E61E0D628(NULL);
 		if ((((int32_t)L_0) == ((int32_t)1)))
@@ -5243,27 +5096,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 
 IL_0010:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:315>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:316>
 		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_3;
 		L_3 = InputDevices_GetDeviceAtXRNode_m3D322E7D1FFDA9C4D53E6B944E636C39B7A9592B(5, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:317>
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D L_4 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___deviceRotation;
 		bool L_5;
 		L_5 = InputDevice_TryGetFeatureValue_m0C1A9761DD0D1C6D1EF4BAB2FAF1BC1A9541BB9F((&V_1), L_4, (&V_0), NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:318>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
 		return L_6;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:320>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
 		L_7 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_7;
@@ -5280,7 +5128,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButtonDown_m67F14E318F8C66
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:330>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5291,7 +5138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButtonDown_m67F14E318F8C66
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:331>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___mControllerButtonValue;
@@ -5316,7 +5162,6 @@ IL_002b:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:332>
 		return (bool)0;
 	}
 }
@@ -5331,7 +5176,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButtonUp_mD7624F019B4174FA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:342>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5342,7 +5186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButtonUp_mD7624F019B4174FA
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:343>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___mControllerLastButtonValue;
@@ -5367,7 +5210,6 @@ IL_002b:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:344>
 		return (bool)0;
 	}
 }
@@ -5382,7 +5224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButton_m4DAF5DDC8BF3A4275D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:354>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5393,7 +5234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButton_m4DAF5DDC8BF3A4275D
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:355>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_2 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___mControllerButtonValue;
@@ -5403,7 +5243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_GetButton_m4DAF5DDC8BF3A4275D
 
 IL_001d:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:356>
 		return (bool)0;
 	}
 }
@@ -5419,7 +5258,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_TriggerHapticVibration_mFA493
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:368>
 		XREALVirtualController_tB9DF68A13F410A7B3E9B5C29E91CD0FEA68AF730* L_0;
 		L_0 = SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_inline(SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_RuntimeMethod_var);
 		NullCheck(L_0);
@@ -5445,7 +5283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALInput_TriggerHapticVibration_m52143
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:382>
 		XREALVirtualController_tB9DF68A13F410A7B3E9B5C29E91CD0FEA68AF730* L_0;
 		L_0 = SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_inline(SingletonMonoBehaviour_1_get_Singleton_mE0D949D6906C04535171B77BAE468A332D6F828C_RuntimeMethod_var);
 		NullCheck(L_0);
@@ -5487,7 +5324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AddButtonListener_mEDB608F92F
 	Dictionary_2_t12E7EEA59B4AEF9ED7D70653D46D95BD70518239* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:395>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5498,7 +5334,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AddButtonListener_mEDB608F92F
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:397>
 		Il2CppFakeBox<int32_t> L_2(ButtonEventType_t0CF0D65D6B12AB236510BFE2263BC1C35ABA0616_il2cpp_TypeInfo_var, (&___0_buttonEventType));
 		String_t* L_3;
 		L_3 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_2), NULL);
@@ -5509,10 +5344,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AddButtonListener_mEDB608F92F
 		L_6 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral73C328573F647C4F2CB8EB179B6FDD3F8365C845, L_3, _stringLiteral8A8EFDA91C6C257127F8C8D526FAD7E7552766AA, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:398>
 		int32_t L_7 = ___0_buttonEventType;
 		V_0 = L_7;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:399>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_8;
 		L_8 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_8);
@@ -5527,7 +5360,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AddButtonListener_mEDB608F92F
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:400>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_13;
 		L_13 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_13);
@@ -5542,13 +5374,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AddButtonListener_mEDB608F92F
 
 IL_005f:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:402>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_17;
 		L_17 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_17);
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_18 = L_17->___mRightListenerArr;
 		V_1 = L_18;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:403>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_19 = V_1;
 		int32_t L_20 = V_0;
 		NullCheck(L_19);
@@ -5564,7 +5394,6 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:405>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_25 = V_1;
 		int32_t L_26 = V_0;
 		NullCheck(L_25);
@@ -5590,7 +5419,6 @@ IL_005f:
 
 IL_0095:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:409>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_37 = V_1;
 		int32_t L_38 = V_0;
 		NullCheck(L_37);
@@ -5604,7 +5432,6 @@ IL_0095:
 
 IL_009f:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:412>
 		return;
 	}
 }
@@ -5631,7 +5458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_RemoveButtonListener_m7C1D834
 	Dictionary_2_t12E7EEA59B4AEF9ED7D70653D46D95BD70518239* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:422>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_0 = ((SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_StaticFields*)il2cpp_codegen_static_fields_for(SingletonMonoBehaviour_1_t8E36EFE1FB6FA3D33D8AD37C054FEA6121C1AE8A_il2cpp_TypeInfo_var))->___s_Singleton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5642,10 +5468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_RemoveButtonListener_m7C1D834
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:424>
 		int32_t L_2 = ___0_buttonEventType;
 		V_0 = L_2;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:425>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_3;
 		L_3 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_3);
@@ -5660,7 +5484,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_RemoveButtonListener_m7C1D834
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:426>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_8;
 		L_8 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_8);
@@ -5675,13 +5498,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_RemoveButtonListener_m7C1D834
 
 IL_002e:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:428>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_12;
 		L_12 = SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_inline(SingletonMonoBehaviour_1_get_Singleton_m6CAC9C899FA87BD0DAA2073B365494C1D3A1B1A2_RuntimeMethod_var);
 		NullCheck(L_12);
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_13 = L_12->___mRightListenerArr;
 		V_1 = L_13;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:429>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_14 = V_1;
 		int32_t L_15 = V_0;
 		NullCheck(L_14);
@@ -5712,7 +5533,6 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:431>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_26 = V_1;
 		int32_t L_27 = V_0;
 		NullCheck(L_26);
@@ -5733,7 +5553,6 @@ IL_002e:
 		L_37 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_35, L_36, NULL);
 		NullCheck(L_31);
 		Dictionary_2_set_Item_mD0404133CE606E6A6EAD2D51376403EBEDD6C8D4(L_31, L_32, ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_37, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)), Dictionary_2_set_Item_mD0404133CE606E6A6EAD2D51376403EBEDD6C8D4_RuntimeMethod_var);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:432>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_38 = V_1;
 		int32_t L_39 = V_0;
 		NullCheck(L_38);
@@ -5749,7 +5568,6 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:434>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_44 = V_1;
 		int32_t L_45 = V_0;
 		NullCheck(L_44);
@@ -5763,7 +5581,6 @@ IL_002e:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:438>
 		return;
 	}
 }
@@ -5781,7 +5598,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_RecenterController_m8999B5582
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B7_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:445>
 		int32_t L_0;
 		L_0 = XREALInput_get_CurrentInputSourceType_m46D76D52BE8727EBD7B7B1F622DBDF2E61E0D628(NULL);
 		if ((((int32_t)L_0) == ((int32_t)1)))
@@ -5800,7 +5616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_RecenterController_m8999B5582
 
 IL_0010:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:447>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ((XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_StaticFields*)il2cpp_codegen_static_fields_for(XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_il2cpp_TypeInfo_var))->___OnBeforeControllerRecenter;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = L_2;
 		if (L_3)
@@ -5822,10 +5637,8 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:448>
 		bool L_4;
 		L_4 = XREALPlugin_RecenterController_mF2EE2A1542267C0FAD4E92DF696F2A9C2C4963A4(NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:449>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ((XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_StaticFields*)il2cpp_codegen_static_fields_for(XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7_il2cpp_TypeInfo_var))->___OnControllerRecentered;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = L_5;
 		if (L_6)
@@ -5847,7 +5660,6 @@ IL_0030:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:451>
 		return;
 	}
 }
@@ -5872,7 +5684,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_CheckButtonEvent_m9659824833E
 	int32_t V_2 = 0;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:455>
 		int32_t L_0 = __this->___mControllerButtonValue;
 		if (L_0)
 		{
@@ -5887,13 +5698,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_CheckButtonEvent_m9659824833E
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:456>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:458>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (ControllerButton_t36B7DC0E2D9211DA7860616D2F4652E7E79D8816_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_3;
@@ -5941,16 +5750,13 @@ IL_012b:
 
 IL_002b_1:
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:458>
 				RuntimeObject* L_9 = V_0;
 				NullCheck(L_9);
 				RuntimeObject* L_10;
 				L_10 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_9);
 				V_1 = ((*(int32_t*)UnBox(L_10, ControllerButton_t36B7DC0E2D9211DA7860616D2F4652E7E79D8816_il2cpp_TypeInfo_var)));
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:461>
 				int32_t L_11 = V_1;
 				V_2 = L_11;
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:462>
 				int32_t L_12 = __this->___mControllerButtonValue;
 				int32_t L_13 = V_2;
 				if (!((int32_t)(L_12&L_13)))
@@ -5970,10 +5776,8 @@ IL_002b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:464>
 				int32_t L_17 = V_1;
 				XREALInput_TryInvokeListener_m1E935EF286EB28186D0213217F74FD133CEF1DE7(__this, 0, L_17, NULL);
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:465>
 				Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD* L_18 = __this->___mRightDownTimeDic;
 				int32_t L_19 = V_1;
 				float L_20;
@@ -5984,7 +5788,6 @@ IL_002b_1:
 
 IL_006a_1:
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:468>
 				int32_t L_21 = __this->___mControllerButtonValue;
 				int32_t L_22 = V_2;
 				if (!((int32_t)(L_21&L_22)))
@@ -5993,10 +5796,8 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:470>
 				int32_t L_23 = V_1;
 				XREALInput_TryInvokeListener_m1E935EF286EB28186D0213217F74FD133CEF1DE7(__this, 1, L_23, NULL);
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:471>
 				float L_24;
 				L_24 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 				Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD* L_25 = __this->___mRightDownTimeDic;
@@ -6010,11 +5811,9 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:473>
 				int32_t L_28 = __this->___mControllerLongButtonValue;
 				int32_t L_29 = V_2;
 				__this->___mControllerLongButtonValue = ((int32_t)(L_28|L_29));
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:474>
 				int32_t L_30 = __this->___mControllerLastLongButtonValue;
 				int32_t L_31 = V_2;
 				if (((int32_t)(L_30&L_31)))
@@ -6023,14 +5822,12 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:476>
 				int32_t L_32 = V_1;
 				XREALInput_TryInvokeListener_m1E935EF286EB28186D0213217F74FD133CEF1DE7(__this, 2, L_32, NULL);
 			}
 
 IL_00b5_1:
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:481>
 				int32_t L_33 = __this->___mControllerLastButtonValue;
 				int32_t L_34 = V_2;
 				if (!((int32_t)(L_33&L_34)))
@@ -6047,14 +5844,11 @@ IL_00b5_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:483>
 				int32_t L_37 = __this->___mControllerLongButtonValue;
 				int32_t L_38 = V_2;
 				__this->___mControllerLongButtonValue = ((int32_t)(L_37&((~L_38))));
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:485>
 				int32_t L_39 = V_1;
 				XREALInput_TryInvokeListener_m1E935EF286EB28186D0213217F74FD133CEF1DE7(__this, 3, L_39, NULL);
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:486>
 				float L_40;
 				L_40 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 				Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD* L_41 = __this->___mRightDownTimeDic;
@@ -6068,14 +5862,12 @@ IL_00b5_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:487>
 				int32_t L_44 = V_1;
 				XREALInput_TryInvokeListener_m1E935EF286EB28186D0213217F74FD133CEF1DE7(__this, 4, L_44, NULL);
 			}
 
 IL_0101_1:
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:488>
 				Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD* L_45 = __this->___mRightDownTimeDic;
 				int32_t L_46 = V_1;
 				NullCheck(L_45);
@@ -6085,7 +5877,6 @@ IL_0101_1:
 
 IL_010e_1:
 			{
-				//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:458>
 				RuntimeObject* L_48 = V_0;
 				NullCheck(L_48);
 				bool L_49;
@@ -6107,7 +5898,6 @@ IL_010e_1:
 
 IL_012c:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:491>
 		return;
 	}
 }
@@ -6124,13 +5914,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TryInvokeListener_m1E935EF286
 	Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:495>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_0 = __this->___mRightListenerArr;
 		V_0 = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:496>
 		int32_t L_1 = ___0_buttonEventType;
 		V_1 = L_1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:497>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_2 = V_0;
 		if (!L_2)
 		{
@@ -6151,13 +5938,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TryInvokeListener_m1E935EF286
 
 IL_0011:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:498>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:499>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_7 = V_0;
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
@@ -6188,7 +5973,6 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:500>
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_19 = V_0;
 		int32_t L_20 = V_1;
 		NullCheck(L_19);
@@ -6204,7 +5988,6 @@ IL_0012:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:501>
 		return;
 	}
 }
@@ -6212,10 +5995,8 @@ IL_0036:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AppActionPerformed_mAC465BC77E29287EFBD6C7AEE24060E18FED7266 (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:505>
 		int32_t L_0 = __this->___mControllerButtonValue;
 		__this->___mControllerButtonValue = ((int32_t)(L_0|2));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:506>
 		return;
 	}
 }
@@ -6223,10 +6004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AppActionPerformed_mAC465BC77
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_AppActionCanceled_m1632DF7DDDF49C3058952D0D8283202AA5D5CCEB (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:510>
 		int32_t L_0 = __this->___mControllerButtonValue;
 		__this->___mControllerButtonValue = ((int32_t)(L_0&((int32_t)-3)));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:511>
 		return;
 	}
 }
@@ -6240,7 +6019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_HomeActionPerformed_mC4F40D65
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:515>
 		RuntimeObject* L_0;
 		L_0 = CallbackContext_get_interaction_mF05241B8F876487AC3A631CBE900BC3C80D6F1F8((&___0_context), NULL);
 		if (!((PressInteraction_tE406520D829C4937F95489EFE3F022194A42A8B5*)IsInstClass((RuntimeObject*)L_0, PressInteraction_tE406520D829C4937F95489EFE3F022194A42A8B5_il2cpp_TypeInfo_var)))
@@ -6249,14 +6027,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_HomeActionPerformed_mC4F40D65
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:516>
 		int32_t L_1 = __this->___mControllerButtonValue;
 		__this->___mControllerButtonValue = ((int32_t)(L_1|4));
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:517>
 		return;
 	}
 }
@@ -6264,10 +6040,8 @@ IL_001c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_HomeActionCanceled_m169BA107395C6ECDEA516227047C1BB83D834B28 (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:521>
 		int32_t L_0 = __this->___mControllerButtonValue;
 		__this->___mControllerButtonValue = ((int32_t)(L_0&((int32_t)-5)));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:522>
 		return;
 	}
 }
@@ -6275,10 +6049,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_HomeActionCanceled_m169BA1073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TriggerActionPerformed_m1DE8CB2F54B2B9484B57834B4D9ED992F9FCA10F (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:526>
 		int32_t L_0 = __this->___mControllerButtonValue;
 		__this->___mControllerButtonValue = ((int32_t)(L_0|1));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:527>
 		return;
 	}
 }
@@ -6286,10 +6058,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TriggerActionPerformed_m1DE8C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TriggerActionCanceled_mA88DFD56873C2C26488F1BBF93273EAF53FEC167 (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:531>
 		int32_t L_0 = __this->___mControllerButtonValue;
 		__this->___mControllerButtonValue = ((int32_t)(L_0&((int32_t)-2)));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:532>
 		return;
 	}
 }
@@ -6303,13 +6073,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TouchActionPerformed_mFBFF6E6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:536>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = CallbackContext_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m454ADEAE74A5A469E011CF78D6303A1034659830((&___0_context), CallbackContext_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m454ADEAE74A5A469E011CF78D6303A1034659830_RuntimeMethod_var);
 		__this->___mControllerTouchPos = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:537>
 		__this->___mControllerTouchpadPressed = (bool)1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:538>
 		return;
 	}
 }
@@ -6317,13 +6084,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TouchActionPerformed_mFBFF6E6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput_TouchActionCanceled_m082460D4A06A2D96218636B5233490B8A49115B2 (XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:542>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___mControllerTouchPos = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:543>
 		__this->___mControllerTouchpadPressed = (bool)0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:544>
 		return;
 	}
 }
@@ -6341,9 +6105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput__ctor_m37F9092B981C0FB54E8EFC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:54>
 		__this->___mInputSourceType = 1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:90>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (ButtonEventType_t0CF0D65D6B12AB236510BFE2263BC1C35ABA0616_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -6357,20 +6119,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALInput__ctor_m37F9092B981C0FB54E8EFC
 		Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5* L_4 = (Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5*)(Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5*)SZArrayNew(Dictionary_2U5BU5D_t9E6EAC3DEF11A4539D3A2CA37932572F704D49C5_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->___mRightListenerArr = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mRightListenerArr), (void*)L_4);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:91>
 		Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD* L_5 = (Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD*)il2cpp_codegen_object_new(Dictionary_2_t7DF3EA703FE18AA8DA645D4D58E79DB4D53AD6CD_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mBDCA4E2B0DA68279E8D900EBED186E4DB455ADC9(L_5, Dictionary_2__ctor_mBDCA4E2B0DA68279E8D900EBED186E4DB455ADC9_RuntimeMethod_var);
 		__this->___mRightDownTimeDic = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mRightDownTimeDic), (void*)L_5);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:100>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___mControllerTouchPos = L_6;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:101>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___mControllerLastTouchPos = L_7;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:102>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___mControllerTouchDelta = L_8;
@@ -6439,7 +6197,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSyncAfterUpdateU3Ed__32_MoveNext_m3B3
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:186>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_4 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_4, NULL);
 		__this->___U3CframeEndU3E5__2 = L_4;
@@ -6448,7 +6205,6 @@ IL_0017:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:189>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_5 = __this->___U3CframeEndU3E5__2;
 		__this->___U3CU3E2__current = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_5);
@@ -6459,35 +6215,30 @@ IL_0029:
 IL_003e:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:190>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_6 = V_1;
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_7 = V_1;
 		NullCheck(L_7);
 		int32_t L_8 = L_7->___mControllerButtonValue;
 		NullCheck(L_6);
 		L_6->___mControllerLastButtonValue = L_8;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:191>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_9 = V_1;
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_10 = V_1;
 		NullCheck(L_10);
 		int32_t L_11 = L_10->___mControllerLongButtonValue;
 		NullCheck(L_9);
 		L_9->___mControllerLastLongButtonValue = L_11;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:192>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_12 = V_1;
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_13 = V_1;
 		NullCheck(L_13);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = L_13->___mControllerTouchPos;
 		NullCheck(L_12);
 		L_12->___mControllerLastTouchPos = L_14;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:193>
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_15 = V_1;
 		XREALInput_tC7FD07109DCC7C9C474779C80B01409F12D07CF7* L_16 = V_1;
 		NullCheck(L_16);
 		bool L_17 = L_16->___mControllerTouchpadPressed;
 		NullCheck(L_15);
 		L_15->___mControllerTouchpadLastPressed = L_17;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/LegacyTools/XREALInput.cs:187>
 		goto IL_0029;
 	}
 }
@@ -6534,12 +6285,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_Start_mF7ED9A3CC61152045BDE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:22>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_0;
 		L_0 = XREALUtility_GetLoadedSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m62849A1562B193BC92EDC7289B5BAF411E4D36A9(XREALUtility_GetLoadedSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m62849A1562B193BC92EDC7289B5BAF411E4D36A9_RuntimeMethod_var);
 		__this->___m_DisplaySubsystem = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DisplaySubsystem), (void*)L_0);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:23>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_1 = __this->___m_DisplaySubsystem;
 		if (L_1)
 		{
@@ -6547,13 +6296,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_Start_mF7ED9A3CC61152045BDE
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:24>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:25>
 		return;
 	}
 }
@@ -6577,7 +6324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_Update_m3645A28823FF0C2AEB0
 	float V_5 = 0.0f;
 	float V_6 = 0.0f;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:29>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_0 = __this->___m_DisplaySubsystem;
 		NullCheck(L_0);
 		bool L_1;
@@ -6588,7 +6334,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_Update_m3645A28823FF0C2AEB0
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:31>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___m_MotionToPhotonText;
 		float L_3 = V_0;
 		float L_4 = ((float)il2cpp_codegen_multiply(L_3, (1000.0f)));
@@ -6601,7 +6346,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_Update_m3645A28823FF0C2AEB0
 
 IL_0030:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:34>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_7 = __this->___m_DisplaySubsystem;
 		NullCheck(L_7);
 		bool L_8;
@@ -6612,7 +6356,6 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:36>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___m_DroppedFrameText;
 		String_t* L_10;
 		L_10 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
@@ -6622,7 +6365,6 @@ IL_0030:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:39>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_11 = __this->___m_DisplaySubsystem;
 		NullCheck(L_11);
 		bool L_12;
@@ -6633,7 +6375,6 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:41>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___m_FramePresentText;
 		String_t* L_14;
 		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
@@ -6643,7 +6384,6 @@ IL_0051:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:44>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_15 = __this->___m_DisplaySubsystem;
 		NullCheck(L_15);
 		bool L_16;
@@ -6654,7 +6394,6 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:46>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___m_DisplayRefreshRateText;
 		String_t* L_18;
 		L_18 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_3), NULL);
@@ -6664,7 +6403,6 @@ IL_0072:
 
 IL_0093:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:49>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_19 = __this->___m_DisplaySubsystem;
 		bool L_20;
 		L_20 = XRStats_TryGetStat_mE91924B240A89BA396554CE3742A06210514FA8B(L_19, _stringLiteralB174136EF733669E09AEE13704B612CA38D83789, (&V_4), NULL);
@@ -6674,7 +6412,6 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:51>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___m_ExtendedFrameText;
 		String_t* L_22;
 		L_22 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_4), NULL);
@@ -6684,7 +6421,6 @@ IL_0093:
 
 IL_00b9:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:54>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_23 = __this->___m_DisplaySubsystem;
 		bool L_24;
 		L_24 = XRStats_TryGetStat_mE91924B240A89BA396554CE3742A06210514FA8B(L_23, _stringLiteralB0729D1920C794A117795B20244AFA11E519C396, (&V_5), NULL);
@@ -6694,7 +6430,6 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:56>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___m_EarlyFrameText;
 		String_t* L_26;
 		L_26 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_5), NULL);
@@ -6704,7 +6439,6 @@ IL_00b9:
 
 IL_00df:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:59>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_27 = __this->___m_DisplaySubsystem;
 		bool L_28;
 		L_28 = XRStats_TryGetStat_mE91924B240A89BA396554CE3742A06210514FA8B(L_27, _stringLiteral08A577CFE7FCA716011D9D3EAF9551EDEF82DF22, (&V_6), NULL);
@@ -6714,7 +6448,6 @@ IL_00df:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:61>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___m_TearedFrameText;
 		String_t* L_30;
 		L_30 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_6), NULL);
@@ -6724,7 +6457,6 @@ IL_00df:
 
 IL_0105:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:63>
 		return;
 	}
 }
@@ -6732,15 +6464,12 @@ IL_0105:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_EnableTearedFrameCount_m30A38F11FD34135543D2054F68CB35091871FDEB (MetricsPanel_t52AD046AAF0263A61CFF91BE6068898A15425112* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:70>
 		bool L_0 = __this->___m_EnableTearedFrameCount;
 		__this->___m_EnableTearedFrameCount = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:71>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_1 = __this->___m_DisplaySubsystem;
 		bool L_2 = __this->___m_EnableTearedFrameCount;
 		bool L_3;
 		L_3 = XREALDisplaySubsystemExtensions_EnableTearedFrameCount_m6257810376C64BEEC331521A9A07629FC5E4FA7D(L_1, L_2, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:72>
 		return;
 	}
 }
@@ -6748,15 +6477,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_EnableTearedFrameCount_m30A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel_EnableRenderBackColor_m3F663C45A3C934409427F434CF5E44100EA572A3 (MetricsPanel_t52AD046AAF0263A61CFF91BE6068898A15425112* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:79>
 		bool L_0 = __this->___m_EnableRenderBackColor;
 		__this->___m_EnableRenderBackColor = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:80>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_1 = __this->___m_DisplaySubsystem;
 		bool L_2 = __this->___m_EnableRenderBackColor;
 		bool L_3;
 		L_3 = XREALDisplaySubsystemExtensions_EnableRenderBackColor_mA2629FCB91A3C2E1E64135EBC0D2DC7D807A323F(L_1, L_2, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/Metrics/MetricsPanel.cs:81>
 		return;
 	}
 }
@@ -6780,7 +6506,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsPanel__ctor_m1C2688A996CCD305E48A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XREALLaser_get_AttachTransform_mFFC6CEA81DBD7CABA321060A0788CEC7D63B6CD6 (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:17>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_AttachTransform;
 		return L_0;
 	}
@@ -6789,7 +6514,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XREALLaser_get_RayOriginTransform_m8FE2C7D43258ADF737A56ECD16BF5B1447F40ECB (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:21>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_RayOriginTransform;
 		return L_0;
 	}
@@ -6825,7 +6549,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_OnDisable_mFF0697A07F5FA76468
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:88>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_0 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerAction);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
 		L_1 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_0, NULL);
@@ -6835,7 +6558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_OnDisable_mFF0697A07F5FA76468
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:90>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_2 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerAction);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
 		L_3 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_2, NULL);
@@ -6843,7 +6565,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_OnDisable_mFF0697A07F5FA76468
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_4, __this, (intptr_t)((void*)XREALLaser_TriggerActionPerformed_mFB75D0947906ACEB68D0AF3C6AD99B45F3E64716_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_3, L_4, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:91>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_5 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_TriggerAction);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
 		L_6 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_5, NULL);
@@ -6855,7 +6576,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_OnDisable_mFF0697A07F5FA76468
 
 IL_0045:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:93>
 		return;
 	}
 }
@@ -6879,7 +6599,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_Update_m3B054B4D5C89EFF3CE06E
 	memset((&V_4), 0, sizeof(V_4));
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:96>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_InteractorTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6909,7 +6628,6 @@ IL_0011:
 IL_0021:
 	{
 		V_0 = (bool)G_B3_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:97>
 		bool L_5 = V_0;
 		if (L_5)
 		{
@@ -6917,19 +6635,15 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:99>
 		__this->___m_Moveable = (bool)1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:100>
 		__this->___m_NoMovementTimer = (0.0f);
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:103>
 		bool L_6 = __this->___m_Moveable;
 		bool L_7 = V_0;
 		V_1 = (bool)((int32_t)((int32_t)L_6&(int32_t)L_7));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:104>
 		XREALLaserVisual_tEB9B796F474FBFD8266C18F5DCDE724162852015* L_8 = __this->___m_LaserVisual;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -6940,7 +6654,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:105>
 		XREALLaserVisual_tEB9B796F474FBFD8266C18F5DCDE724162852015* L_10 = __this->___m_LaserVisual;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
@@ -6952,7 +6665,6 @@ IL_0037:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:106>
 		XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* L_13 = __this->___m_Reticle;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -6963,7 +6675,6 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:107>
 		XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* L_15 = __this->___m_Reticle;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
@@ -6975,7 +6686,6 @@ IL_005f:
 
 IL_007e:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:109>
 		RuntimeObject* L_18 = __this->___m_Interactor;
 		if (!L_18)
 		{
@@ -6993,13 +6703,11 @@ IL_007e:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:111>
 		XRUIInputModule_tA641266A2621C1465F3C5433D747428A4CDA72F0* L_21 = __this->___m_InputModule;
 		RuntimeObject* L_22 = __this->___m_Interactor;
 		NullCheck(L_21);
 		bool L_23;
 		L_23 = XRUIInputModule_GetTrackedDeviceModel_m85E330D47C648609FA20F173C8C036E3DF280875(L_21, L_22, (&V_3), NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:112>
 		il2cpp_codegen_runtime_class_init_inline(TrackedDeviceModel_t38B1BA171F5602138D487005E134580213B4DBE8_il2cpp_TypeInfo_var);
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_24;
 		L_24 = TrackedDeviceModel_get_currentRaycast_mAF58714250F6AB9E34888B19F2449EF2D0FA94E4_inline((&V_3), NULL);
@@ -7014,7 +6722,6 @@ IL_007e:
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_RaycastResult))->___element), (void*)NULL);
 		#endif
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:113>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_25;
 		L_25 = TrackedDeviceModel_get_currentRaycast_mAF58714250F6AB9E34888B19F2449EF2D0FA94E4_inline((&V_3), NULL);
 		V_4 = L_25;
@@ -7026,16 +6733,13 @@ IL_007e:
 
 IL_00cd:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:117>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* L_27 = (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023*)(&__this->___m_RaycastResult);
 		il2cpp_codegen_initobj(L_27, sizeof(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:118>
 		__this->___m_RaycastValid = (bool)0;
 	}
 
 IL_00e0:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:121>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = __this->___m_RayOriginTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -7058,20 +6762,15 @@ IL_00e0:
 
 IL_00fc:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:123>
 		__this->___m_Moveable = (bool)0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:124>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_32 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___m_RaycastHit);
 		il2cpp_codegen_initobj(L_32, sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:125>
 		__this->___m_IsUIHitClosest = (bool)1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:126>
 		return;
 	}
 
 IL_0117:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:129>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = __this->___m_RayOriginTransform;
 		NullCheck(L_33);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
@@ -7089,7 +6788,6 @@ IL_0117:
 		bool L_41;
 		L_41 = Physics_Raycast_m56120FFEF0D4F0A44CCA505B5C946E6FB8742F12(L_34, L_36, L_37, L_38, L_40, NULL);
 		V_2 = L_41;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:130>
 		bool L_42 = V_2;
 		if (!L_42)
 		{
@@ -7097,7 +6795,6 @@ IL_0117:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:132>
 		bool L_43 = __this->___m_RaycastValid;
 		if (!L_43)
 		{
@@ -7105,7 +6802,6 @@ IL_0117:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:134>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* L_44 = (RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023*)(&__this->___m_RaycastResult);
 		float L_45 = L_44->___distance;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_46 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)(&__this->___m_RaycastHit);
@@ -7117,24 +6813,20 @@ IL_0117:
 
 IL_0178:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:138>
 		__this->___m_IsUIHitClosest = (bool)0;
 		goto IL_0188;
 	}
 
 IL_0181:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:143>
 		__this->___m_IsUIHitClosest = (bool)1;
 	}
 
 IL_0188:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:145>
 		bool L_48 = __this->___m_RaycastValid;
 		bool L_49 = V_2;
 		__this->___m_RaycastValid = (bool)((int32_t)((int32_t)L_48|(int32_t)L_49));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:147>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50 = __this->___m_AttachTransform;
 		NullCheck(L_50);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_51;
@@ -7158,22 +6850,18 @@ IL_0188:
 
 IL_01bc:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:149>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_56 = __this->___m_AttachTransform;
 		NullCheck(L_56);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_57;
 		L_57 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_56, NULL);
 		__this->___m_MovementRotation = L_57;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:150>
 		__this->___m_Moveable = (bool)1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:151>
 		__this->___m_NoMovementTimer = (0.0f);
 		return;
 	}
 
 IL_01e0:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:155>
 		bool L_58 = __this->___m_Moveable;
 		if (!L_58)
 		{
@@ -7181,12 +6869,10 @@ IL_01e0:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:157>
 		float L_59 = __this->___m_NoMovementTimer;
 		float L_60;
 		L_60 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___m_NoMovementTimer = ((float)il2cpp_codegen_add(L_59, L_60));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:158>
 		float L_61 = __this->___m_NoMovementTimer;
 		if ((!(((float)L_61) >= ((float)(3.0f)))))
 		{
@@ -7194,9 +6880,7 @@ IL_01e0:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:160>
 		__this->___m_Moveable = (bool)0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:161>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62 = __this->___m_AttachTransform;
 		NullCheck(L_62);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_63;
@@ -7207,7 +6891,6 @@ IL_01e0:
 
 IL_0220:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:164>
 		int32_t L_64;
 		L_64 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		if (((int32_t)(L_64%((int32_t)30))))
@@ -7216,7 +6899,6 @@ IL_0220:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:166>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65 = __this->___m_AttachTransform;
 		NullCheck(L_65);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_66;
@@ -7226,7 +6908,6 @@ IL_0220:
 
 IL_023b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:169>
 		return;
 	}
 }
@@ -7234,11 +6915,9 @@ IL_023b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaser_GetCurrentRaycast_m67F5C6D3DF54FECD53BDBF9FED32056DB361A824 (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___0_raycastHit, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* ___1_raycastResult, bool* ___2_isUIHitClosest, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:173>
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* L_0 = ___0_raycastHit;
 		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_1 = __this->___m_RaycastHit;
 		*(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5*)L_0 = L_1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:174>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023* L_2 = ___1_raycastResult;
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_3 = __this->___m_RaycastResult;
 		*(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023*)L_2 = L_3;
@@ -7252,11 +6931,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaser_GetCurrentRaycast_m67F5C6D3DF
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023*)L_2)->___element), (void*)NULL);
 		#endif
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:175>
 		bool* L_4 = ___2_isUIHitClosest;
 		bool L_5 = __this->___m_IsUIHitClosest;
 		*((int8_t*)L_4) = (int8_t)L_5;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:176>
 		bool L_6 = __this->___m_RaycastValid;
 		return L_6;
 	}
@@ -7265,9 +6942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaser_GetCurrentRaycast_m67F5C6D3DF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_TriggerActionPerformed_mFB75D0947906ACEB68D0AF3C6AD99B45F3E64716 (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:181>
 		__this->___m_TriggerTouched = (bool)1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:182>
 		return;
 	}
 }
@@ -7275,9 +6950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_TriggerActionPerformed_mFB75D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_TriggerActionCanceled_m8D304016B096A0E8BA79958CB36A105C3A863FE5 (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:186>
 		__this->___m_TriggerTouched = (bool)0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:187>
 		return;
 	}
 }
@@ -7285,19 +6958,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser_TriggerActionCanceled_m8D3040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaser__ctor_m802486857A6056C44EA1213A9BACBF6516CF2AFE (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:30>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0;
 		L_0 = LayerMask_op_Implicit_m01C8996A2CB2085328B9C33539C43139660D8222(1, NULL);
 		__this->___m_InteractionLayerMask = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:32>
 		__this->___m_MaxRaycastDistance = (10.0f);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:38>
 		__this->___m_MovementThreshold = (0.300000012f);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:39>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		__this->___m_MovementRotation = L_1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:40>
 		__this->___m_Moveable = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -7377,14 +7045,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__24_MoveNext_m982097B0E6E54
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:50>
 		__this->___U3CtimerU3E5__2 = (0.0f);
 		goto IL_00ae;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:53>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -7396,14 +7062,11 @@ IL_002e:
 IL_0047:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:54>
 		float L_5 = __this->___U3CtimerU3E5__2;
 		__this->___U3CtimerU3E5__2 = ((float)il2cpp_codegen_add(L_5, (0.5f)));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:55>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral98018BE8EB53CB8EC9307D4EEAAA001D606E788C, NULL);
 		V_2 = L_6;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:56>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -7414,7 +7077,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:58>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_9 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_2;
 		NullCheck(L_10);
@@ -7426,7 +7088,6 @@ IL_0047:
 		NullCheck(L_9);
 		L_9->___m_InteractorTransform = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___m_InteractorTransform), (void*)L_12);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:59>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_13 = V_1;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = L_13->___m_InteractorTransform;
@@ -7439,7 +7100,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:61>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_16 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_2;
 		NullCheck(L_17);
@@ -7455,7 +7115,6 @@ IL_0047:
 
 IL_00ae:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:51>
 		float L_20 = __this->___U3CtimerU3E5__2;
 		if ((!(((float)L_20) < ((float)(5.0f)))))
 		{
@@ -7477,7 +7136,6 @@ IL_00ae:
 
 IL_00cc:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:66>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_24 = V_1;
 		NullCheck(L_24);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = L_24->___m_InteractorTransform;
@@ -7490,7 +7148,6 @@ IL_00cc:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:68>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_27 = V_1;
 		NullCheck(L_27);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = L_27->___m_AttachTransform;
@@ -7503,7 +7160,6 @@ IL_00cc:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:69>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_30 = V_1;
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_31 = V_1;
 		NullCheck(L_31);
@@ -7518,7 +7174,6 @@ IL_00cc:
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:70>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_34 = V_1;
 		NullCheck(L_34);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = L_34->___m_RayOriginTransform;
@@ -7531,7 +7186,6 @@ IL_00f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:71>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_37 = V_1;
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_38 = V_1;
 		NullCheck(L_38);
@@ -7546,7 +7200,6 @@ IL_00f9:
 
 IL_0118:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:72>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_41 = V_1;
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_42 = V_1;
 		NullCheck(L_42);
@@ -7561,11 +7214,9 @@ IL_0118:
 
 IL_0129:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_45;
 		L_45 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:76>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_46 = V_1;
 		NullCheck(L_46);
 		XRUIInputModule_tA641266A2621C1465F3C5433D747428A4CDA72F0** L_47 = (XRUIInputModule_tA641266A2621C1465F3C5433D747428A4CDA72F0**)(&L_46->___m_InputModule);
@@ -7578,14 +7229,12 @@ IL_0129:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:77>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1E3BBE762664B769506FB9DC08FC13501F1E638A, NULL);
 	}
 
 IL_0145:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:79>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_49 = V_1;
 		NullCheck(L_49);
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_50 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&L_49->___m_TriggerAction);
@@ -7597,7 +7246,6 @@ IL_0145:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:81>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_52 = V_1;
 		NullCheck(L_52);
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_53 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&L_52->___m_TriggerAction);
@@ -7608,7 +7256,6 @@ IL_0145:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_56, L_55, (intptr_t)((void*)XREALLaser_TriggerActionPerformed_mFB75D0947906ACEB68D0AF3C6AD99B45F3E64716_RuntimeMethod_var), NULL);
 		NullCheck(L_54);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_54, L_56, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:82>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_57 = V_1;
 		NullCheck(L_57);
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_58 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&L_57->___m_TriggerAction);
@@ -7623,7 +7270,6 @@ IL_0145:
 
 IL_018a:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:84>
 		return (bool)0;
 	}
 }
@@ -7664,7 +7310,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__24_System_Collec
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* XREALLaserReticle_get_MainCamera_m044DE2D071B1A71C9B8C22BAB1CB0903C78F0DF6 (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:44>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_MainCamera;
 		return L_0;
 	}
@@ -7673,7 +7318,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaserReticle_get_ForceHideReticle_m069500F0122FF5681B4DAA28662DAB4B0086A4F2 (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:49>
 		bool L_0 = __this->___m_ForceHideReticle;
 		return L_0;
 	}
@@ -7682,7 +7326,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaserReticle_get_ForceHideReticle_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_set_ForceHideReticle_m59A960BB6B718CE60F35F66C160E72801BB3B6C6 (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:50>
 		bool L_0 = ___0_value;
 		__this->___m_ForceHideReticle = L_0;
 		return;
@@ -7698,7 +7341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_Awake_m43F5E3F0709895A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:55>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_MainCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7709,7 +7351,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_Awake_m43F5E3F0709895A
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:56>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___m_MainCamera = L_2;
@@ -7718,9 +7359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_Awake_m43F5E3F0709895A
 
 IL_0019:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:58>
 		XREALLaserReticle_SwitchReticleState_m1E4E8123429F244EFBD789F44C9363C19B18979B(__this, 0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:59>
 		return;
 	}
 }
@@ -7734,7 +7373,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_Start_mE98870C87DE2F78
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:63>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_MainCamera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7745,7 +7383,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_Start_mE98870C87DE2F78
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:65>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___m_MainCamera = L_2;
@@ -7754,7 +7391,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_Start_mE98870C87DE2F78
 
 IL_0019:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:67>
 		return;
 	}
 }
@@ -7779,7 +7415,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_LateUpdate_m58C9D2C118
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:71>
 		bool L_0 = __this->___m_ForceHideReticle;
 		if (L_0)
 		{
@@ -7825,15 +7460,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_LateUpdate_m58C9D2C118
 
 IL_003c:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:73>
 		XREALLaserReticle_SwitchReticleState_m1E4E8123429F244EFBD789F44C9363C19B18979B(__this, 0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:74>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:77>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_9 = __this->___m_Laser;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -7854,7 +7486,6 @@ IL_0044:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_11, L_16, NULL);
 		V_0 = L_17;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:78>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_18 = __this->___m_Laser;
 		NullCheck(L_18);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -7863,21 +7494,17 @@ IL_0044:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
 		L_20 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_19, NULL);
 		V_1 = L_20;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:79>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_21 = __this->___m_Laser;
 		NullCheck(L_21);
 		bool L_22;
 		L_22 = XREALLaser_GetCurrentRaycast_m67F5C6D3DF54FECD53BDBF9FED32056DB361A824(L_21, (&V_2), (&V_3), (&V_4), NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:80>
 		if (!L_22)
 		{
 			goto IL_00f0;
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:82>
 		XREALLaserReticle_SwitchReticleState_m1E4E8123429F244EFBD789F44C9363C19B18979B(__this, 2, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:83>
 		bool L_23 = V_4;
 		if (!L_23)
 		{
@@ -7885,11 +7512,9 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:85>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_24 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24.___worldPosition;
 		V_0 = L_25;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:86>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_26 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = L_26.___worldNormal;
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_28 = __this->___m_Laser;
@@ -7907,11 +7532,9 @@ IL_0044:
 
 IL_00c9:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:90>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 		L_32 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_2), NULL);
 		V_0 = L_32;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:91>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
 		L_33 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_2), NULL);
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_34 = __this->___m_Laser;
@@ -7929,25 +7552,21 @@ IL_00c9:
 
 IL_00f0:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:96>
 		XREALLaserReticle_SwitchReticleState_m1E4E8123429F244EFBD789F44C9363C19B18979B(__this, 1, NULL);
 	}
 
 IL_00f7:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:98>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38;
 		L_38 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_0;
 		NullCheck(L_38);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_38, L_39, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:99>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
 		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41 = V_1;
 		NullCheck(L_40);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_40, L_41, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:101>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_42;
 		L_42 = XREALLaserReticle_get_MainCamera_m044DE2D071B1A71C9B8C22BAB1CB0903C78F0DF6_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -7959,7 +7578,6 @@ IL_00f7:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:102>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
 		L_44 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
@@ -7993,7 +7611,6 @@ IL_00f7:
 
 IL_0165:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:103>
 		return;
 	}
 }
@@ -8001,9 +7618,7 @@ IL_0165:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_OnDisable_m20C5ADF7E9D2B7FEDF58FB2A6EE75E68AA730F3D (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:107>
 		XREALLaserReticle_SwitchReticleState_m1E4E8123429F244EFBD789F44C9363C19B18979B(__this, 0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:108>
 		return;
 	}
 }
@@ -8034,43 +7649,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_SwitchReticleState_m1E
 
 IL_0013:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:117>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___m_DefaultVisual;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:118>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_HoverVisual;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:119>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:121>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_DefaultVisual;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:122>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_HoverVisual;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:123>
 		return;
 	}
 
 IL_0045:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:125>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_DefaultVisual;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:126>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_HoverVisual;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:131>
 		return;
 	}
 }
@@ -8078,10 +7684,8 @@ IL_0045:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_SetVisible_mC73D098EEAA3E9FB5DF1853A500913A91E5B381B (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, bool ___0_isVisible, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:137>
 		bool L_0 = ___0_isVisible;
 		__this->___m_IsVisible = L_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:138>
 		return;
 	}
 }
@@ -8089,11 +7693,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle_SetVisible_mC73D098EEA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle__ctor_m56CD1F596033FB378EAABCF87AC2C97D821C0F61 (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:32>
 		__this->___m_IsVisible = (bool)1;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:35>
 		__this->___defaultDistance = (2.5f);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:37>
 		__this->___reticleSizeRatio = (0.0199999996f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -8119,7 +7720,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserReticle__ctor_m56CD1F596033FB3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaserVisual_get_ForceHideLine_m1C49EBD9A72A1F8E099AF91CA6EF1CEC1517F474 (XREALLaserVisual_tEB9B796F474FBFD8266C18F5DCDE724162852015* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:21>
 		bool L_0 = __this->___m_ForceHideLine;
 		return L_0;
 	}
@@ -8128,7 +7728,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREALLaserVisual_get_ForceHideLine_m1C49
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_set_ForceHideLine_mA94CFA733F58DDB5D334248E7D2F540C714C5EA1 (XREALLaserVisual_tEB9B796F474FBFD8266C18F5DCDE724162852015* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:22>
 		bool L_0 = ___0_value;
 		__this->___m_ForceHideLine = L_0;
 		return;
@@ -8145,7 +7744,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_Awake_mB67999346AAB0BE4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:32>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0 = __this->___m_LineRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8156,7 +7754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_Awake_mB67999346AAB0BE4
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:33>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2;
 		L_2 = Component_GetComponentInChildren_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m7C0A24B77687015E8F276E1782014FC3DDF83B6A(__this, (bool)1, Component_GetComponentInChildren_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m7C0A24B77687015E8F276E1782014FC3DDF83B6A_RuntimeMethod_var);
 		__this->___m_LineRenderer = L_2;
@@ -8165,7 +7762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_Awake_mB67999346AAB0BE4
 
 IL_001b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:34>
 		return;
 	}
 }
@@ -8191,7 +7787,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_LateUpdate_m914B98CEF3C
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B6_0;
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:38>
 		bool L_0 = __this->___m_ForceHideLine;
 		if (!L_0)
 		{
@@ -8199,17 +7794,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_LateUpdate_m914B98CEF3C
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:40>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_1 = __this->___m_LineRenderer;
 		NullCheck(L_1);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:41>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:44>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_2 = __this->___m_Laser;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -8220,13 +7812,11 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:46>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_4 = __this->___m_Laser;
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = XREALLaser_GetCurrentRaycast_m67F5C6D3DF54FECD53BDBF9FED32056DB361A824(L_4, (&V_1), (&V_2), (&V_3), NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:47>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_6 = __this->___m_Laser;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -8261,11 +7851,9 @@ IL_0052:
 IL_0062:
 	{
 		V_4 = G_B6_0;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:48>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		V_5 = L_13;
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:50>
 		bool L_14 = V_0;
 		if (!L_14)
 		{
@@ -8273,7 +7861,6 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:52>
 		bool L_15 = V_3;
 		if (!L_15)
 		{
@@ -8281,7 +7868,6 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:54>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_16 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = L_16.___worldPosition;
 		V_5 = L_17;
@@ -8290,7 +7876,6 @@ IL_0062:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:58>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_1), NULL);
 		V_5 = L_18;
@@ -8299,7 +7884,6 @@ IL_007b:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:61>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_19 = __this->___m_Laser;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -8326,7 +7910,6 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:63>
 		XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* L_25 = __this->___m_Laser;
 		NullCheck(L_25);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
@@ -8351,7 +7934,6 @@ IL_0086:
 
 IL_00de:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:66>
 		bool L_34 = __this->___showOnHitOnly;
 		if (!L_34)
 		{
@@ -8366,29 +7948,23 @@ IL_00de:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:68>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_36 = __this->___m_LineRenderer;
 		NullCheck(L_36);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_36, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:69>
 		return;
 	}
 
 IL_00f6:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:71>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_37 = __this->___m_LineRenderer;
 		NullCheck(L_37);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_37, (bool)1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:72>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_38 = __this->___m_LineRenderer;
 		NullCheck(L_38);
 		LineRenderer_set_useWorldSpace_m0204DB2541CC37DC4DC15DA15FD5A66EDC507CE8(L_38, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:73>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_39 = __this->___m_LineRenderer;
 		NullCheck(L_39);
 		LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205(L_39, 2, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:74>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_40 = __this->___m_LineRenderer;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41;
 		L_41 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -8398,7 +7974,6 @@ IL_00f6:
 		L_43 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_41, L_42, NULL);
 		NullCheck(L_40);
 		LineRenderer_SetPosition_m84C4AD9ADC6AC62B33DB4D7E4C9F066DFF8440C1(L_40, 0, L_43, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:75>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_44 = __this->___m_LineRenderer;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
 		L_45 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -8412,7 +7987,6 @@ IL_00f6:
 
 IL_014c:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:77>
 		return;
 	}
 }
@@ -8420,11 +7994,9 @@ IL_014c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_OnDisable_mB30ED8A96362F45D819D0B516EEC1692F08F7577 (XREALLaserVisual_tEB9B796F474FBFD8266C18F5DCDE724162852015* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:81>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0 = __this->___m_LineRenderer;
 		NullCheck(L_0);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:82>
 		return;
 	}
 }
@@ -8432,7 +8004,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual_OnDisable_mB30ED8A96362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREALLaserVisual__ctor_m0072C950035B4C8BF446608DD1FD662C1810099D (XREALLaserVisual_tEB9B796F474FBFD8266C18F5DCDE724162852015* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserVisual.cs:28>
 		__this->___defaultDistance = (1.20000005f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -8457,16 +8028,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StereoVideo_Start_mA41A5E3222C134C285993
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:15>
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:16>
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:17>
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:18>
 		VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* L_0 = __this->___m_VideoPlayer;
 		EventHandler_tE1FA51515FC895E3A02E317912FBDCDCF390A411* L_1 = (EventHandler_tE1FA51515FC895E3A02E317912FBDCDCF390A411*)il2cpp_codegen_object_new(EventHandler_tE1FA51515FC895E3A02E317912FBDCDCF390A411_il2cpp_TypeInfo_var);
 		EventHandler__ctor_mFCF62E0BB29DD3D2B2F1306BD8657E374CF60903(L_1, __this, (intptr_t)((void*)StereoVideo_U3CStartU3Eb__2_0_m89CA9A5E5E45AF9325D09C5ED26AFC8C9C55A1E1_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		VideoPlayer_add_prepareCompleted_m4DB8843A3E3E3CFF7E361E70EA51983AF457183B(L_0, L_1, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:19>
 		return;
 	}
 }
@@ -8488,7 +8054,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StereoVideo_U3CStartU3Eb__2_0_m89CA9A5E5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:17>
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_0 = __this->___m_Screen;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
@@ -8499,7 +8064,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StereoVideo_U3CStartU3Eb__2_0_m89CA9A5E5
 		L_3 = VideoPlayer_get_texture_m1BA7033FEB30FEC507A4605FDD5C4B78BB81C379(L_2, NULL);
 		NullCheck(L_1);
 		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_1, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_3, NULL);
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/StereoVideo/StereoVideoDemo.cs:18>
 		return;
 	}
 }
@@ -8546,7 +8110,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FocusPlanePanel_get_AjustFocusPlaneNormal_mF58FB47FC665A3456BA05120E3DCD4C440FC232B_inline (FocusPlanePanel_t507B7825AF01F4B10336E9978A808DAB8EBECCB2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/FocusPlane/FocusPlanePanel.cs:12>
 		bool L_0 = __this->___U3CAjustFocusPlaneNormalU3Ek__BackingField;
 		return L_0;
 	}
@@ -8817,7 +8380,6 @@ IL_003c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XREALLaser_get_RayOriginTransform_m8FE2C7D43258ADF737A56ECD16BF5B1447F40ECB_inline (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:21>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_RayOriginTransform;
 		return L_0;
 	}
@@ -8826,7 +8388,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XREALLaser_get_AttachTransform_mFFC6CEA81DBD7CABA321060A0788CEC7D63B6CD6_inline (XREALLaser_tD9944C5F0931AE5D37C7F40D57F96974F807065E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaser.cs:17>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_AttachTransform;
 		return L_0;
 	}
@@ -8894,7 +8455,6 @@ IL_0030:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* XREALLaserReticle_get_MainCamera_m044DE2D071B1A71C9B8C22BAB1CB0903C78F0DF6_inline (XREALLaserReticle_t9EAC9CFE2572FCE6469EC30F9B317915E808CC7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/RayLaser/XREALLaserReticle.cs:44>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_MainCamera;
 		return L_0;
 	}

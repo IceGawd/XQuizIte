@@ -26685,7 +26685,7 @@ IL_0012:
 		return L_5;
 	}
 }
-// Method Definition Index: 92992
+// Method Definition Index: 92926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleRenderers_TisRuntimeObject_m21CF32A9DCEE9F23E70AEB08222E216637EAA206_gshared (bool ___0_toggle, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_rendererTransform, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -26696,7 +26696,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleRenderers_TisRunti
 	RuntimeObject* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:600>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___1_rendererTransform;
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)L_0);
 		bool L_1;
@@ -26707,7 +26706,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleRenderers_TisRunti
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:601>
 		RuntimeObject* L_2 = V_0;
 		bool L_3 = ___0_toggle;
 		NullCheck((Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*)L_2);
@@ -26716,14 +26714,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleRenderers_TisRunti
 
 IL_0016:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:603>
 		V_1 = 0;
 		goto IL_002b;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:604>
 		bool L_4 = ___0_toggle;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___1_rendererTransform;
 		int32_t L_6 = V_1;
@@ -26732,14 +26728,12 @@ IL_001a:
 		L_7 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_5, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
 		HandGameObjects_ToggleRenderers_TisRuntimeObject_m21CF32A9DCEE9F23E70AEB08222E216637EAA206(L_4, L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:603>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:603>
 		int32_t L_9 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = ___1_rendererTransform;
 		NullCheck(L_10);
@@ -26751,7 +26745,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/avigh/Documents/unity/XQuizIte/XQuizIte/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs:605>
 		return;
 	}
 }

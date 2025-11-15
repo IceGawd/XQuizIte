@@ -19,8 +19,7 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -84,8 +83,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -101,8 +99,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -161,8 +158,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -182,8 +178,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -203,8 +198,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -218,8 +212,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -251,8 +244,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -260,8 +252,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -289,8 +280,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -312,8 +302,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -345,8 +334,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -360,8 +348,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -369,8 +356,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -408,8 +394,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -423,8 +408,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -456,8 +440,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -493,8 +476,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1466,8 +1448,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1510,8 +1491,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1525,8 +1505,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity",
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Samples/XERAL XR Plugin/3.0.0-pre.4/Interaction Basics/HelloMR/HelloMR.unity"
             ],
             "dependencyType": 0,
             "icon": null
