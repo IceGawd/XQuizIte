@@ -1,58 +1,30 @@
+# XQuizIte 🚀  
+**Flashcard-powered XR learning for XREAL glasses**
 
-# Setup beginner project for Immerse The Bay
+## 📌 Elevator Pitch  
+XQuizIte turns your XREAL glasses into a flashcard-powered study portal—learn smarter in mixed reality.
 
-Follow these steps if you are new to GitHub.
+## 🎯 Project Overview  
+XQuizIte is an immersive XR study app designed for XREAL glasses. It transforms traditional flashcard learning into a spatial experience, helping users retain information through visual engagement and spatial memory. Whether you're prepping for exams or brushing up on trivia, XQuizIte makes studying feel like play.
 
-## 1. Fork the Repository
+## 🛠️ Features  
+- 🧠 AI-generated flashcards based on user input or uploaded content  
+- 👓 XR interface optimized for XREAL glasses  
+- 🎮 Gesture-based navigation and voice commands  
+- 📊 Progress tracking and spaced repetition algorithm  
+- 🌐 Offline mode for uninterrupted learning  
 
-1. Make sure you're logged in to GitHub and come back to this page
-2. Click the "Fork" button in the top right
-3. This will create a copy of the project under your GitHub account
+## 📷 Screenshots  
+*(Add screenshots or demo GIFs here)*
 
-Your fork will be located at:
+## 🧪 Tech Stack  
+- **Frontend**: Unity + MRTK (Mixed Reality Toolkit)  
+- **Backend**: Python (FastAPI), Firebase  
+- **XR Platform**: XREAL Nebula SDK  
+- **AI**: OpenAI API for flashcard generation  
+- **Deployment**: GitHub Pages + APK sideload  
 
-```
-https://github.com/<your-username>/immerse-the-bay-beginner
-```
-
-## 2. Submit Your GitHub Link
-
-Submit the link to your fork to the team formation form:
-
-```
-https://github.com/<your-username>/immerse-the-bay-beginner
-```
-
-## 3. Install Git
-
-Download Git if you do not already have it:
-[https://git-scm.com/downloads](https://git-scm.com/downloads)
-
-## 4. Open Terminal
-
-Mac: open Terminal \
-Windows: open Git Bash
-
-## 5. Clone Your Fork (Basically copy the project to your local machine)
-
-Run this command, replacing `<your-username>` with your GitHub username:
-
-```
-git clone https://github.com/<your-username>/immerse-the-bay-beginner
-```
-
-## 6. Enter the Project Folder
-
-```
-cd immerse-the-bay-beginner
-```
-
-## 7. Work on the Project
-
-To save any changes to your GitHub:
-
-```
-git add .
-git commit -m "your message"
-git push
-```
+## 🚀 Getting Started  
+```bash
+git clone https://github.com/yourusername/xquizite.git
+cd xquizite
