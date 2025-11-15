@@ -32,7 +32,8 @@ To start working, first set up the repository locally.
 git clone https://github.com/IceGawd/XQuizIte.git
 cd xquizite
 ```
-Check the [https://github.com/IceGawd/XQuizIte/wiki](Wiki) for further information on building in Unity
+Check the [Wiki](https://github.com/IceGawd/XQuizIte/wiki) for further information on building in Unity.
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
