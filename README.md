@@ -30,3 +30,7 @@ XQuizIte is an immersive XR study app designed for XREAL glasses. It transforms 
 ```bash
 git clone https://github.com/yourusername/xquizite.git
 cd xquizite
+```
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
