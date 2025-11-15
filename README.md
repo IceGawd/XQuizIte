@@ -27,10 +27,12 @@ XQuizIte is an immersive XR study app designed for XREAL glasses. It transforms 
 - **Deployment**: GitHub Pages + APK sideload  
 
 ## 🚀 Getting Started  
+To start working, first set up the repository locally.
 ```bash
 git clone https://github.com/IceGawd/XQuizIte.git
 cd xquizite
 ```
+Check the [https://github.com/IceGawd/XQuizIte/wiki](Wiki) for further information on building in Unity
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
