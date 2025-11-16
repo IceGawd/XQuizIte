@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
 using Newtonsoft.Json.Linq;
+using System.Linq;
 
 public class FlashcardManager : MonoBehaviour
 {
@@ -31,20 +32,67 @@ public class FlashcardManager : MonoBehaviour
 
 	public List<Flashcard> deck = new List<Flashcard>();
 
-	void Start()
+	public void SetPrompt(string newPrompt)
 	{
+		PROMPT = newPrompt;
 		StartCoroutine(SendPrompt());
 	}
 
-	IEnumerator SendPrompt()
+	public void Start()
 	{
-		string apiKey = "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";
-		string url = "https://api.openai.com/v1/chat/completions";
+		for (int i = 0; i < 100; i++)
+		{
+			Debug.Log(Random.Range(0, i));
+		}
 
-		// Ask OpenAI for JSON list of flashcards
+		StartCoroutine(SendPrompt());
+	}
+
+	string LoadApiKey()
+	{
+		TextAsset keyFile = Resources.Load<TextAsset>("openai_key");
+
+		if (keyFile == null)
+		{
+			Debug.LogError("API key file missing!");
+			return null;
+		}
+
+		// You stored the reversed key in the file
+		return keyFile.text.Trim();
+	}
+
+	public IEnumerator SendPrompt()
+	{
+		deck.Clear();
+
 		string userRequest =
 			$"Generate exactly 5 flashcards relating to this prompt: {PROMPT}. " +
 			"Respond ONLY with valid JSON: an array of objects, each with keys 'question' and 'answer'.";
+
+		yield return SendPromptWithCustomRequest(userRequest);
+	}
+
+	public void AddFiveNewCards()
+	{
+		// Build a string of existing questions so the model knows to avoid them
+		string existingQuestions = string.Join(", ", deck.Select(f => f.question));
+
+		// Construct a modified prompt
+		string newPrompt =
+			$"Generate exactly 5 flashcards relating to this prompt: {PROMPT}. " +
+			$"Do NOT reuse these questions: {existingQuestions}. " +
+			"Respond ONLY with valid JSON: an array of objects, each with keys 'question' and 'answer'.";
+
+		// Start the coroutine that sends this request
+		StartCoroutine(SendPromptWithCustomRequest(newPrompt, destroyObjs: false, startAt: deck.Count));
+	}
+
+	// New subfunction, internal helper
+	private IEnumerator SendPromptWithCustomRequest(string userRequest, bool destroyObjs = true, int startAt = 0)
+	{
+		string apiKey = LoadApiKey();
+		string url = "https://api.openai.com/v1/chat/completions";
 
 		string json =
 		"{ " +
@@ -74,15 +122,10 @@ public class FlashcardManager : MonoBehaviour
 		Debug.Log("Response received: " + req.downloadHandler.text);
 
 		JObject obj = JObject.Parse(req.downloadHandler.text);
-		string message = (string) (obj["choices"][0]["message"]["content"]);
+		string message = (string)(obj["choices"][0]["message"]["content"]);
 
 		List<string> questions = splitBetween(message, "\"question\"", "\n");
 		List<string> answers = splitBetween(message, "\"answer\"", "\n");
-
-		Debug.Log(questions);
-		Debug.Log(answers);
-
-		deck.Clear();
 
 		int count = Mathf.Min(questions.Count, answers.Count);
 
@@ -94,7 +137,9 @@ public class FlashcardManager : MonoBehaviour
 				answer = answers[i][3..^1]
 			});
 		}
-		SpawnStack();
+
+		// Respawn the stack with the new cards added
+		SpawnStack(destroyObjs: destroyObjs, startAt: startAt);
 	}
 
 	List<string> splitBetween(string text, string splitA, string splitB)
@@ -128,13 +173,15 @@ public class FlashcardManager : MonoBehaviour
 		return results;
 	}
 	
-	public void SpawnStack()
+	public void SpawnStack(bool destroyObjs = true, int startAt = 0)
 	{
-		foreach (GameObject g in cardObjects)
-			Destroy(g);
-		cardObjects.Clear();
+		if (destroyObjs) {
+			foreach (GameObject g in cardObjects)
+				Destroy(g);
+			cardObjects.Clear();
+		}
 
-		for (int i = 0; i < deck.Count; i++)
+		for (int i = startAt; i < deck.Count; i++)
 		{
 			GameObject card = Instantiate(flashcardPrefab, stackRoot);
 			card.transform.localPosition = new Vector3(0, -i * stackOffset, i * stackOffset);
@@ -151,14 +198,23 @@ public class FlashcardManager : MonoBehaviour
 	IEnumerator FlipCard(GameObject card, FlashcardView view)
 	{
 		float total = 0;
-		while (total < 1)
+		float duration = 1f;
+		float rotationSpeed = 180f; // degrees per second
+
+		while (total < duration)
 		{
-			total += Time.deltaTime;
-			// Rotate around the Y axis at 45 degrees per second
-			card.transform.Rotate(0f, 180f * Time.deltaTime, 0f);
+			float delta = Time.deltaTime;
+			total += delta;
+
+			card.transform.Rotate(0f, rotationSpeed * delta, 0f);
 
 			yield return null;
 		}
+
+		// Snap to nearest 90 degrees
+		Vector3 euler = card.transform.eulerAngles;
+		float snappedY = Mathf.Round(euler.y / 90f) * 90f;
+		card.transform.eulerAngles = new Vector3(euler.x, snappedY, euler.z);
 
 		view.ToggleSide();
 	}
@@ -176,5 +232,23 @@ public class FlashcardManager : MonoBehaviour
 			card.transform.position = Vector3.Lerp(start, end, t);
 			yield return null;
 		}
+	}
+
+	public void ShuffleDeck()
+	{
+		if (deck.Count == 0) return;
+
+		// Fisher-Yates shuffle
+		for (int i = deck.Count - 1; i > 0; i--)
+		{
+			int j = Random.Range(0, i + 1);
+			var temp = deck[i];
+			deck[i] = deck[j];
+			deck[j] = temp;
+		}
+
+		SpawnStack();
+
+		Debug.Log("Deck shuffled and cards repositioned.");
 	}
 }

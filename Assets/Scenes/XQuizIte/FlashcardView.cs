@@ -14,7 +14,7 @@ public class FlashcardView : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 	public TMP_Text backText;
 
 	[Header("Interaction Settings")] 
-	public float swipeThreshold = 0.05f;  // % of screen width
+	public float swipeThreshold = 0.025f;  // % of screen width
 	public float swipeTime = 0.075f;
 
 	private bool showingFront = true;
@@ -71,14 +71,14 @@ public class FlashcardView : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 		Debug.Log(Screen.width);
 
 		// Swipe detection
-		if (dt >= swipeTime && dist >= swipeThreshold * Screen.width)
+		if (dist >= swipeThreshold * Screen.width)
 		{
 			onCardSwiped.Invoke();
 			return;
 		}
 
 		// Tap detection
-		if (dist < Screen.width)
+		if (dt <= swipeTime)
 		{
 			onCardClicked.Invoke();
 			return;
