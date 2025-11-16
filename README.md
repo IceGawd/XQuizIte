@@ -19,7 +19,7 @@ To start working, first set up the repository locally.
 git clone https://github.com/IceGawd/XQuizIte.git
 cd xquizite
 ```
-Check the [Wiki](https://github.com/IceGawd/XQuizIte/wiki) for further information on building in Unity.
+This should clone all the Unity files and directories needed to get set up for development. Check the [Wiki](https://github.com/IceGawd/XQuizIte/wiki) for further information on building in Unity.
 
 
 ## Description
@@ -35,11 +35,10 @@ XQuizIte is an XR quiz app designed for the XREAL Air 2 Ultra on the XREAL 3.0 S
 ![Demo Screenshot](Images/demo.jpg)
 
 ## Resources
-Fully documented GitHub repo with wiki
-Releases tab for pre-built binaries
-Example demos and screenshots
-Unity project ready to clone and build
-
+- Fully documented GitHub repo with [Wiki](https://github.com/IceGawd/XQuizIte/wiki)
+- [Releases](https://github.com/IceGawd/XQuizIte/releases) tab for pre-built binaries
+- Example demos and screenshots (see [`Images/`](Images/) folder)
+- Unity project ready to clone and build
 
 > ** Disclaimer**  
 > XQuizIte is currently in an active hackathon development phase at Immerse the Bay 2025. Some documentation, features, and polish may be incomplete or evolving. We’ll be updating this README and related resources post-hackathon.  
