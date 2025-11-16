@@ -8,6 +8,10 @@
 
 **Flashcard-powered XR learning for XREAL glasses, conceptualized at Immerse The Bay 2025**
 
+> ⚠️ **Hackathon Disclaimer**  
+> XQuizIte is currently in an active hackathon development phase at Immerse the Bay 2025. Some documentation, features, and polish may be incomplete or evolving. We’ll be updating this README and related resources post-hackathon.  
+> Check out our DevPost submission here: [XQuizIte on DevPost](https://devpost.com/software/xquizite)
+> 
 ## Getting Started  
 To start working, first set up the repository locally.
 ```bash
