@@ -220,6 +220,8 @@ __marimo__/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+# Unity Burst compiler debug info (should never be in source control)
+XQuizIte_BurstDebugInformation_DoNotShip/
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
