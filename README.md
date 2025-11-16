@@ -2,7 +2,6 @@
 [![DevPost](https://img.shields.io/badge/DevPost-XQuizIte-0A66C2?logo=devpost&logoColor=white&label=DevPost)](https://devpost.com/software/xquizite)
 [![XR SDK](https://img.shields.io/badge/XR%20SDK-XREAL%203.0-green)](https://docs.xreal.com/)
 [![Unity](https://img.shields.io/badge/built%20with-Unity%206.0%20LTS-orange)](https://unity.com/releases/editor/whats-new/6.0.0)
-[![Platform](https://img.shields.io/badge/platform-XREAL%20Glasses-lightgrey)](https://www.xreal.com/)
 [![Language](https://img.shields.io/badge/language-C%23-239120?logo=c-sharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 [![Android](https://img.shields.io/badge/target-Android-blue)](https://developer.android.com/)
 
