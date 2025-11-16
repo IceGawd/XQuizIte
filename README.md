@@ -1,7 +1,11 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # <p align="center">XQuizIte</p>
-![Logo](Images/logo.png)
+
+<p align="center">
+  <img src="Images/logo.png" alt="Logo" width="200"/>
+</p>
+
 **Flashcard-powered XR learning for XREAL glasses, conceptualized at Immerse The Bay 2025**
 
 ## Getting Started  
