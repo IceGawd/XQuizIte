@@ -31,7 +31,7 @@ Check the [Wiki](https://github.com/IceGawd/XQuizIte/wiki) for further informati
 XQuizIte is an immersive XR study app designed for XREAL glasses. It transforms traditional flashcard learning into a spatial experience, helping users retain information through visual engagement and spatial memory. Whether you're prepping for exams or brushing up on trivia, XQuizIte makes studying feel like play.
 
 ## 📷 Screenshots  
-*(Add screenshots or demo GIFs here)*
+![Demo Screenshot](Images/demo.jpeg)
 
 ## License
 
