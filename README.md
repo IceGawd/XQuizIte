@@ -22,12 +22,23 @@ cd xquizite
 Check the [Wiki](https://github.com/IceGawd/XQuizIte/wiki) for further information on building in Unity.
 
 
-## Project Overview  
-XQuizIte is an immersive XR study app designed for XREAL glasses. It transforms traditional flashcard learning into a spatial experience, helping users retain information through visual engagement and spatial memory. Whether you're prepping for exams or brushing up on trivia, XQuizIte makes studying feel like play.
+## Description
+XQuizIte is an XR quiz app designed for the XREAL Air 2 Ultra on the XREAL 3.0 SDK that was conceptualized and built within 36 hours at the Stanford Immerse the Bay XR hackathon. It overlays flash-card style notecards in your field of view, allowing users to interact with the notecards via a touch-to-reveal and swipe-to-next interface workflow for the end user. Questions are generated via AI APIs (OpenAI for our hackathon's choice of tool).
+
+## Toolset
+Unity 6.0 LTS
+XREAL SDK 3.0
+OpenAI API
 
 ## Media  
 
 ![Demo Screenshot](Images/demo.jpg)
+
+## Resources
+Fully documented GitHub repo with wiki
+Releases tab for pre-built binaries
+Example demos and screenshots
+Unity project ready to clone and build
 
 
 > ** Disclaimer**  
