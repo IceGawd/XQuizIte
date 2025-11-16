@@ -1,25 +1,28 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
-public class FlashcardView : MonoBehaviour
+public class FlashcardView : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-	[Header("Card Faces")] public GameObject frontFace; // Question side
-	public GameObject backFace; // Answer side
+	[Header("Card Faces")] 
+	public GameObject frontFace;
+	public GameObject backFace;
 
-	[Header("Text Elements")] public TMP_Text frontText;
+	[Header("Text Elements")] 
+	public TMP_Text frontText;
 	public TMP_Text backText;
 
-	[Header("Interaction Settings")] public float swipeThreshold = 0.3f;
+	[Header("Interaction Settings")] 
+	public float swipeThreshold = 0.3f;  // % of screen width
 	public float swipeTime = 0.25f;
 
 	private bool showingFront = true;
 	private Vector2 startPos;
 	private float startTime;
 
-	[Header("Events")] public UnityEvent onCardClicked;
+	[Header("Events")] 
+	public UnityEvent onCardClicked;
 	public UnityEvent onCardSwiped;
 
 	void Start()
@@ -47,32 +50,38 @@ public class FlashcardView : MonoBehaviour
 		backFace.SetActive(false);
 	}
 
-	// XR/Mouse compatible interaction
-	void OnMouseDown()
+	// XR + Mouse + Touch compatible input
+	public void OnPointerDown(PointerEventData eventData)
 	{
-		startPos = Input.mousePosition;
+		startPos = eventData.position;
 		startTime = Time.time;
 	}
 
-	void OnMouseUp()
+	public void OnPointerUp(PointerEventData eventData)
 	{
-		Vector2 endPos = Input.mousePosition;
+		Vector2 endPos = eventData.position;
 		float dt = Time.time - startTime;
 
 		Vector2 delta = endPos - startPos;
 		float dist = delta.magnitude;
 
-		// Swipe
+		Debug.Log("Pointer Up");
+		Debug.Log(dt);
+		Debug.Log(dist);
+		Debug.Log(Screen.width);
+
+		// Swipe detection
 		if (dt <= swipeTime && dist >= swipeThreshold * Screen.width)
 		{
 			onCardSwiped.Invoke();
 			return;
 		}
 
-		// Tap
+		// Tap detection
 		if (dist < Screen.width * 0.02f)
 		{
 			onCardClicked.Invoke();
+			return;
 		}
 	}
 }
