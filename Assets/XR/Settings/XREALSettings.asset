@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.XREAL::Unity.XR.XREAL.XREALSettings
   StereoRendering: 2
   InitialTrackingType: 0
-  InitialInputSource: 1
+  InitialInputSource: 3
   VirtualController: {fileID: 1406232319260624, guid: afed05c45059824429a2a2322bf6a6c1, type: 3}
   SupportMultiResume: 1
   AddtionalPermissions: []
