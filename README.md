@@ -26,9 +26,9 @@ Check the [Wiki](https://github.com/IceGawd/XQuizIte/wiki) for further informati
 XQuizIte is an XR quiz app designed for the XREAL Air 2 Ultra on the XREAL 3.0 SDK that was conceptualized and built within 36 hours at the Stanford Immerse the Bay XR hackathon. It overlays flash-card style notecards in your field of view, allowing users to interact with the notecards via a touch-to-reveal and swipe-to-next interface workflow for the end user. Questions are generated via AI APIs (OpenAI for our hackathon's choice of tool).
 
 ## Toolset
-Unity 6.0 LTS
-XREAL SDK 3.0
-OpenAI API
+- Unity 6.0 LTS
+- XREAL SDK 3.0
+- OpenAI API
 
 ## Media  
 
