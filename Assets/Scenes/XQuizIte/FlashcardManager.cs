@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
 using Newtonsoft.Json.Linq;
+using System.Linq;
 
 public class FlashcardManager : MonoBehaviour
 {
@@ -39,6 +40,11 @@ public class FlashcardManager : MonoBehaviour
 
 	public void Start()
 	{
+		for (int i = 0; i < 100; i++)
+		{
+			Debug.Log(Random.Range(0, i));
+		}
+
 		StartCoroutine(SendPrompt());
 	}
 
@@ -58,13 +64,35 @@ public class FlashcardManager : MonoBehaviour
 
 	public IEnumerator SendPrompt()
 	{
-		string apiKey = LoadApiKey();
-		string url = "https://api.openai.com/v1/chat/completions";
+		deck.Clear();
 
-		// Ask OpenAI for JSON list of flashcards
 		string userRequest =
 			$"Generate exactly 5 flashcards relating to this prompt: {PROMPT}. " +
 			"Respond ONLY with valid JSON: an array of objects, each with keys 'question' and 'answer'.";
+
+		yield return SendPromptWithCustomRequest(userRequest);
+	}
+
+	public void AddFiveNewCards()
+	{
+		// Build a string of existing questions so the model knows to avoid them
+		string existingQuestions = string.Join(", ", deck.Select(f => f.question));
+
+		// Construct a modified prompt
+		string newPrompt =
+			$"Generate exactly 5 flashcards relating to this prompt: {PROMPT}. " +
+			$"Do NOT reuse these questions: {existingQuestions}. " +
+			"Respond ONLY with valid JSON: an array of objects, each with keys 'question' and 'answer'.";
+
+		// Start the coroutine that sends this request
+		StartCoroutine(SendPromptWithCustomRequest(newPrompt, destroyObjs: false, startAt: deck.Count));
+	}
+
+	// New subfunction, internal helper
+	private IEnumerator SendPromptWithCustomRequest(string userRequest, bool destroyObjs = true, int startAt = 0)
+	{
+		string apiKey = LoadApiKey();
+		string url = "https://api.openai.com/v1/chat/completions";
 
 		string json =
 		"{ " +
@@ -94,15 +122,10 @@ public class FlashcardManager : MonoBehaviour
 		Debug.Log("Response received: " + req.downloadHandler.text);
 
 		JObject obj = JObject.Parse(req.downloadHandler.text);
-		string message = (string) (obj["choices"][0]["message"]["content"]);
+		string message = (string)(obj["choices"][0]["message"]["content"]);
 
 		List<string> questions = splitBetween(message, "\"question\"", "\n");
 		List<string> answers = splitBetween(message, "\"answer\"", "\n");
-
-		Debug.Log(questions);
-		Debug.Log(answers);
-
-		deck.Clear();
 
 		int count = Mathf.Min(questions.Count, answers.Count);
 
@@ -114,7 +137,9 @@ public class FlashcardManager : MonoBehaviour
 				answer = answers[i][3..^1]
 			});
 		}
-		SpawnStack();
+
+		// Respawn the stack with the new cards added
+		SpawnStack(destroyObjs: destroyObjs, startAt: startAt);
 	}
 
 	List<string> splitBetween(string text, string splitA, string splitB)
@@ -148,13 +173,15 @@ public class FlashcardManager : MonoBehaviour
 		return results;
 	}
 	
-	public void SpawnStack()
+	public void SpawnStack(bool destroyObjs = true, int startAt = 0)
 	{
-		foreach (GameObject g in cardObjects)
-			Destroy(g);
-		cardObjects.Clear();
+		if (destroyObjs) {
+			foreach (GameObject g in cardObjects)
+				Destroy(g);
+			cardObjects.Clear();
+		}
 
-		for (int i = 0; i < deck.Count; i++)
+		for (int i = startAt; i < deck.Count; i++)
 		{
 			GameObject card = Instantiate(flashcardPrefab, stackRoot);
 			card.transform.localPosition = new Vector3(0, -i * stackOffset, i * stackOffset);
@@ -205,5 +232,23 @@ public class FlashcardManager : MonoBehaviour
 			card.transform.position = Vector3.Lerp(start, end, t);
 			yield return null;
 		}
+	}
+
+	public void ShuffleDeck()
+	{
+		if (deck.Count == 0) return;
+
+		// Fisher-Yates shuffle
+		for (int i = deck.Count - 1; i > 0; i--)
+		{
+			int j = Random.Range(0, i + 1);
+			var temp = deck[i];
+			deck[i] = deck[j];
+			deck[j] = temp;
+		}
+
+		SpawnStack();
+
+		Debug.Log("Deck shuffled and cards repositioned.");
 	}
 }
