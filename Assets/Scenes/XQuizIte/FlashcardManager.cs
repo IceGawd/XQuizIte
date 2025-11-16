@@ -31,14 +31,34 @@ public class FlashcardManager : MonoBehaviour
 
 	public List<Flashcard> deck = new List<Flashcard>();
 
-	void Start()
+	public void SetPrompt(string newPrompt)
+	{
+		PROMPT = newPrompt;
+		StartCoroutine(SendPrompt());
+	}
+
+	public void Start()
 	{
 		StartCoroutine(SendPrompt());
 	}
 
-	IEnumerator SendPrompt()
+	string LoadApiKey()
 	{
-		string apiKey = "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";
+		TextAsset keyFile = Resources.Load<TextAsset>("openai_key");
+
+		if (keyFile == null)
+		{
+			Debug.LogError("API key file missing!");
+			return null;
+		}
+
+		// You stored the reversed key in the file
+		return keyFile.text.Trim();
+	}
+
+	public IEnumerator SendPrompt()
+	{
+		string apiKey = LoadApiKey();
 		string url = "https://api.openai.com/v1/chat/completions";
 
 		// Ask OpenAI for JSON list of flashcards
@@ -151,14 +171,23 @@ public class FlashcardManager : MonoBehaviour
 	IEnumerator FlipCard(GameObject card, FlashcardView view)
 	{
 		float total = 0;
-		while (total < 1)
+		float duration = 1f;
+		float rotationSpeed = 180f; // degrees per second
+
+		while (total < duration)
 		{
-			total += Time.deltaTime;
-			// Rotate around the Y axis at 45 degrees per second
-			card.transform.Rotate(0f, 180f * Time.deltaTime, 0f);
+			float delta = Time.deltaTime;
+			total += delta;
+
+			card.transform.Rotate(0f, rotationSpeed * delta, 0f);
 
 			yield return null;
 		}
+
+		// Snap to nearest 90 degrees
+		Vector3 euler = card.transform.eulerAngles;
+		float snappedY = Mathf.Round(euler.y / 90f) * 90f;
+		card.transform.eulerAngles = new Vector3(euler.x, snappedY, euler.z);
 
 		view.ToggleSide();
 	}
